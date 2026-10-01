@@ -2,7 +2,7 @@
   "workspaces": [
     {
       "gid": "ws-1001",
-      "name": "Olaplex",
+      "name": "BondCare",
       "resource_type": "workspace"
     }
   ],
@@ -12,70 +12,110 @@
       "name": "Charlotte Watson",
       "email": "charlotte.watson@olaplex.com",
       "resource_type": "user",
-      "workspaces": [{"gid": "ws-1001"}]
+      "workspaces": [
+        {
+          "gid": "ws-1001"
+        }
+      ]
     },
     {
       "gid": "usr-102",
       "name": "John Keppeler",
       "email": "john.keppeler@olaplex.com",
       "resource_type": "user",
-      "workspaces": [{"gid": "ws-1001"}]
+      "workspaces": [
+        {
+          "gid": "ws-1001"
+        }
+      ]
     },
     {
       "gid": "usr-103",
       "name": "Trisha Fox",
       "email": "trisha.fox@olaplex.com",
       "resource_type": "user",
-      "workspaces": [{"gid": "ws-1001"}]
+      "workspaces": [
+        {
+          "gid": "ws-1001"
+        }
+      ]
     },
     {
       "gid": "usr-104",
       "name": "Marcus Reid",
       "email": "marcus.reid@olaplex.com",
       "resource_type": "user",
-      "workspaces": [{"gid": "ws-1001"}]
+      "workspaces": [
+        {
+          "gid": "ws-1001"
+        }
+      ]
     },
     {
       "gid": "usr-105",
       "name": "Sofia Delgado",
       "email": "sofia.delgado@olaplex.com",
       "resource_type": "user",
-      "workspaces": [{"gid": "ws-1001"}]
+      "workspaces": [
+        {
+          "gid": "ws-1001"
+        }
+      ]
     },
     {
       "gid": "usr-106",
       "name": "Ryan Chen",
       "email": "ryan.chen@olaplex.com",
       "resource_type": "user",
-      "workspaces": [{"gid": "ws-1001"}]
+      "workspaces": [
+        {
+          "gid": "ws-1001"
+        }
+      ]
     },
     {
       "gid": "usr-107",
       "name": "Priya Nair",
       "email": "priya.nair@olaplex.com",
       "resource_type": "user",
-      "workspaces": [{"gid": "ws-1001"}]
+      "workspaces": [
+        {
+          "gid": "ws-1001"
+        }
+      ]
     },
     {
       "gid": "usr-108",
       "name": "Jake Moreau",
       "email": "jake.moreau@olaplex.com",
       "resource_type": "user",
-      "workspaces": [{"gid": "ws-1001"}]
+      "workspaces": [
+        {
+          "gid": "ws-1001"
+        }
+      ]
     },
     {
       "gid": "usr-109",
       "name": "Danielle Park",
       "email": "danielle.park@olaplex.com",
       "resource_type": "user",
-      "workspaces": [{"gid": "ws-1001"}]
+      "workspaces": [
+        {
+          "gid": "ws-1001"
+        }
+      ]
     },
     {
       "gid": "usr-110",
       "name": "Tom Vasquez",
       "email": "tom.vasquez@olaplex.com",
       "resource_type": "user",
-      "workspaces": [{"gid": "ws-1001"}]
+      "workspaces": [
+        {
+          "gid": "ws-1001"
+        }
+      ]
     }
   ],
   "teams": [
@@ -96,7 +136,7 @@
     {
       "gid": "team-203",
       "name": "E-commerce & Digital",
-      "description": "Olaplex.com, DTC e-commerce, SEO, paid digital, and platform operations.",
+      "description": "BondCare.com, DTC e-commerce, SEO, paid digital, and platform operations.",
       "resource_type": "team",
       "organization_gid": "ws-1001"
     },
@@ -110,7 +150,7 @@
     {
       "gid": "team-205",
       "name": "Operations & Supply Chain",
-      "description": "Manufacturing, 3PL logistics, supply chain planning, and post-Henkel integration operations.",
+      "description": "Manufacturing, 3PL logistics, supply chain planning, and post-GlobalCorp integration operations.",
       "resource_type": "team",
       "organization_gid": "ws-1001"
     }
@@ -119,7 +159,7 @@
     {
       "gid": "proj-301",
       "name": "No. 9 Bond Protector Launch — Q4 2026",
-      "notes": "Full go-to-market launch of No. 9 Bond Protector across DTC, Sephora, and Ulta channels for Q4 2026. Includes product claims finalization, creative assets, influencer activation, and retail set-up.",
+      "notes": "Full go-to-market launch of No. 9 Bond Protector across DTC, BeautyFirst, and GlowCo channels for Q4 2026. Includes product claims finalization, creative assets, influencer activation, and retail set-up.",
       "team_gid": "team-201",
       "team_name": "Marketing & Brand",
       "workspace_gid": "ws-1001",
@@ -131,22 +171,40 @@
       "owner_gid": "usr-101",
       "owner_name": "Charlotte Watson",
       "members": [
-        {"gid": "usr-101", "name": "Charlotte Watson"},
-        {"gid": "usr-104", "name": "Marcus Reid"},
-        {"gid": "usr-105", "name": "Sofia Delgado"},
-        {"gid": "usr-106", "name": "Ryan Chen"}
+        {
+          "gid": "usr-101",
+          "name": "Charlotte Watson"
+        },
+        {
+          "gid": "usr-104",
+          "name": "Marcus Reid"
+        },
+        {
+          "gid": "usr-105",
+          "name": "Sofia Delgado"
+        },
+        {
+          "gid": "usr-106",
+          "name": "Ryan Chen"
+        }
       ],
       "completed": false,
       "completed_at": null,
       "custom_fields": [
-        {"name": "Channel", "type": "enum"},
-        {"name": "Launch Date", "type": "date"}
+        {
+          "name": "Channel",
+          "type": "enum"
+        },
+        {
+          "name": "Launch Date",
+          "type": "date"
+        }
       ]
     },
     {
       "gid": "proj-302",
-      "name": "Henkel Integration Workstream",
-      "notes": "Post-acquisition integration tasks following Henkel's $1.4B acquisition of Olaplex in 2026. Covers ERP alignment, legal entity restructuring, brand guidelines sync, and supply chain handover.",
+      "name": "GlobalCorp Integration Workstream",
+      "notes": "Post-acquisition integration tasks following GlobalCorp's $1.4B acquisition of BondCare in 2026. Covers ERP alignment, legal entity restructuring, brand guidelines sync, and supply chain handover.",
       "team_gid": "team-205",
       "team_name": "Operations & Supply Chain",
       "workspace_gid": "ws-1001",
@@ -158,22 +216,40 @@
       "owner_gid": "usr-110",
       "owner_name": "Tom Vasquez",
       "members": [
-        {"gid": "usr-110", "name": "Tom Vasquez"},
-        {"gid": "usr-107", "name": "Priya Nair"},
-        {"gid": "usr-102", "name": "John Keppeler"},
-        {"gid": "usr-103", "name": "Trisha Fox"}
+        {
+          "gid": "usr-110",
+          "name": "Tom Vasquez"
+        },
+        {
+          "gid": "usr-107",
+          "name": "Priya Nair"
+        },
+        {
+          "gid": "usr-102",
+          "name": "John Keppeler"
+        },
+        {
+          "gid": "usr-103",
+          "name": "Trisha Fox"
+        }
       ],
       "completed": false,
       "completed_at": null,
       "custom_fields": [
-        {"name": "Workstream", "type": "text"},
-        {"name": "Henkel Owner", "type": "text"}
+        {
+          "name": "Workstream",
+          "type": "text"
+        },
+        {
+          "name": "GlobalCorp Owner",
+          "type": "text"
+        }
       ]
     },
     {
       "gid": "proj-303",
       "name": "Holiday Campaign 2026",
-      "notes": "Annual holiday marketing campaign covering gift sets, Black Friday/Cyber Monday promotions, influencer gifting, and in-store retail activations at Ulta and Sephora.",
+      "notes": "Annual holiday marketing campaign covering gift sets, Black Friday/Cyber Monday promotions, influencer gifting, and in-store retail activations at GlowCo and BeautyFirst.",
       "team_gid": "team-201",
       "team_name": "Marketing & Brand",
       "workspace_gid": "ws-1001",
@@ -185,15 +261,30 @@
       "owner_gid": "usr-101",
       "owner_name": "Charlotte Watson",
       "members": [
-        {"gid": "usr-101", "name": "Charlotte Watson"},
-        {"gid": "usr-104", "name": "Marcus Reid"},
-        {"gid": "usr-105", "name": "Sofia Delgado"}
+        {
+          "gid": "usr-101",
+          "name": "Charlotte Watson"
+        },
+        {
+          "gid": "usr-104",
+          "name": "Marcus Reid"
+        },
+        {
+          "gid": "usr-105",
+          "name": "Sofia Delgado"
+        }
       ],
       "completed": false,
       "completed_at": null,
       "custom_fields": [
-        {"name": "Retailer", "type": "enum"},
-        {"name": "Budget", "type": "number"}
+        {
+          "name": "Retailer",
+          "type": "enum"
+        },
+        {
+          "name": "Budget",
+          "type": "number"
+        }
       ]
     },
     {
@@ -211,21 +302,36 @@
       "owner_gid": "usr-103",
       "owner_name": "Trisha Fox",
       "members": [
-        {"gid": "usr-103", "name": "Trisha Fox"},
-        {"gid": "usr-107", "name": "Priya Nair"},
-        {"gid": "usr-105", "name": "Sofia Delgado"}
+        {
+          "gid": "usr-103",
+          "name": "Trisha Fox"
+        },
+        {
+          "gid": "usr-107",
+          "name": "Priya Nair"
+        },
+        {
+          "gid": "usr-105",
+          "name": "Sofia Delgado"
+        }
       ],
       "completed": false,
       "completed_at": null,
       "custom_fields": [
-        {"name": "Stage Gate", "type": "enum"},
-        {"name": "Regulatory Region", "type": "text"}
+        {
+          "name": "Stage Gate",
+          "type": "enum"
+        },
+        {
+          "name": "Regulatory Region",
+          "type": "text"
+        }
       ]
     },
     {
       "gid": "proj-305",
       "name": "E-commerce Platform Migration",
-      "notes": "Migration from legacy Shopify infrastructure to a new enterprise e-commerce platform. Includes data migration, QA, SEO redirects, and post-launch monitoring.",
+      "notes": "Migration from legacy CommercePro infrastructure to a new enterprise e-commerce platform. Includes data migration, QA, SEO redirects, and post-launch monitoring.",
       "team_gid": "team-203",
       "team_name": "E-commerce & Digital",
       "workspace_gid": "ws-1001",
@@ -237,21 +343,36 @@
       "owner_gid": "usr-106",
       "owner_name": "Ryan Chen",
       "members": [
-        {"gid": "usr-106", "name": "Ryan Chen"},
-        {"gid": "usr-108", "name": "Jake Moreau"},
-        {"gid": "usr-109", "name": "Danielle Park"}
+        {
+          "gid": "usr-106",
+          "name": "Ryan Chen"
+        },
+        {
+          "gid": "usr-108",
+          "name": "Jake Moreau"
+        },
+        {
+          "gid": "usr-109",
+          "name": "Danielle Park"
+        }
       ],
       "completed": false,
       "completed_at": null,
       "custom_fields": [
-        {"name": "Environment", "type": "enum"},
-        {"name": "Ticket URL", "type": "text"}
+        {
+          "name": "Environment",
+          "type": "enum"
+        },
+        {
+          "name": "Ticket URL",
+          "type": "text"
+        }
       ]
     },
     {
       "gid": "proj-306",
       "name": "Salon Pro Partner Program Relaunch",
-      "notes": "Relaunch of the Olaplex Professional salon partner program with updated portal UX, refreshed sales collateral, and outreach to top salon accounts in North America.",
+      "notes": "Relaunch of the BondCare Professional salon partner program with updated portal UX, refreshed sales collateral, and outreach to top salon accounts in North America.",
       "team_gid": "team-204",
       "team_name": "Sales & Revenue",
       "workspace_gid": "ws-1001",
@@ -263,21 +384,36 @@
       "owner_gid": "usr-102",
       "owner_name": "John Keppeler",
       "members": [
-        {"gid": "usr-102", "name": "John Keppeler"},
-        {"gid": "usr-108", "name": "Jake Moreau"},
-        {"gid": "usr-109", "name": "Danielle Park"}
+        {
+          "gid": "usr-102",
+          "name": "John Keppeler"
+        },
+        {
+          "gid": "usr-108",
+          "name": "Jake Moreau"
+        },
+        {
+          "gid": "usr-109",
+          "name": "Danielle Park"
+        }
       ],
       "completed": false,
       "completed_at": null,
       "custom_fields": [
-        {"name": "Region", "type": "enum"},
-        {"name": "Account Tier", "type": "enum"}
+        {
+          "name": "Region",
+          "type": "enum"
+        },
+        {
+          "name": "Account Tier",
+          "type": "enum"
+        }
       ]
     },
     {
       "gid": "proj-307",
       "name": "Q4 Retail Sell-in",
-      "notes": "Q4 retail sell-in negotiations and submissions for major retail partners including Walgreens, Target, and Ulta. Covers planogram submissions, endcap proposals, and promotional calendars.",
+      "notes": "Q4 retail sell-in negotiations and submissions for major retail partners including HealthMart, Target, and GlowCo. Covers planogram submissions, endcap proposals, and promotional calendars.",
       "team_gid": "team-204",
       "team_name": "Sales & Revenue",
       "workspace_gid": "ws-1001",
@@ -289,21 +425,36 @@
       "owner_gid": "usr-102",
       "owner_name": "John Keppeler",
       "members": [
-        {"gid": "usr-102", "name": "John Keppeler"},
-        {"gid": "usr-108", "name": "Jake Moreau"},
-        {"gid": "usr-101", "name": "Charlotte Watson"}
+        {
+          "gid": "usr-102",
+          "name": "John Keppeler"
+        },
+        {
+          "gid": "usr-108",
+          "name": "Jake Moreau"
+        },
+        {
+          "gid": "usr-101",
+          "name": "Charlotte Watson"
+        }
       ],
       "completed": false,
       "completed_at": null,
       "custom_fields": [
-        {"name": "Retailer", "type": "enum"},
-        {"name": "Submission Deadline", "type": "date"}
+        {
+          "name": "Retailer",
+          "type": "enum"
+        },
+        {
+          "name": "Submission Deadline",
+          "type": "date"
+        }
       ]
     },
     {
       "gid": "proj-308",
       "name": "Supply Chain Optimization",
-      "notes": "Cross-functional initiative to reduce lead times, improve 3PL fulfillment accuracy, and consolidate packaging suppliers as part of the post-Henkel integration efficiency drive.",
+      "notes": "Cross-functional initiative to reduce lead times, improve 3PL fulfillment accuracy, and consolidate packaging suppliers as part of the post-GlobalCorp integration efficiency drive.",
       "team_gid": "team-205",
       "team_name": "Operations & Supply Chain",
       "workspace_gid": "ws-1001",
@@ -315,54 +466,230 @@
       "owner_gid": "usr-110",
       "owner_name": "Tom Vasquez",
       "members": [
-        {"gid": "usr-110", "name": "Tom Vasquez"},
-        {"gid": "usr-107", "name": "Priya Nair"},
-        {"gid": "usr-103", "name": "Trisha Fox"}
+        {
+          "gid": "usr-110",
+          "name": "Tom Vasquez"
+        },
+        {
+          "gid": "usr-107",
+          "name": "Priya Nair"
+        },
+        {
+          "gid": "usr-103",
+          "name": "Trisha Fox"
+        }
       ],
       "completed": false,
       "completed_at": null,
       "custom_fields": [
-        {"name": "Cost Savings Target", "type": "number"},
-        {"name": "Supplier", "type": "text"}
+        {
+          "name": "Cost Savings Target",
+          "type": "number"
+        },
+        {
+          "name": "Supplier",
+          "type": "text"
+        }
       ]
     }
   ],
   "sections": [
-    {"gid": "sec-401", "name": "Planning", "project_gid": "proj-301", "project_name": "No. 9 Bond Protector Launch — Q4 2026", "created_at": "2026-07-15T09:05:00Z"},
-    {"gid": "sec-402", "name": "In Progress", "project_gid": "proj-301", "project_name": "No. 9 Bond Protector Launch — Q4 2026", "created_at": "2026-07-15T09:06:00Z"},
-    {"gid": "sec-403", "name": "Review & Approval", "project_gid": "proj-301", "project_name": "No. 9 Bond Protector Launch — Q4 2026", "created_at": "2026-07-15T09:07:00Z"},
-    {"gid": "sec-404", "name": "Launched", "project_gid": "proj-301", "project_name": "No. 9 Bond Protector Launch — Q4 2026", "created_at": "2026-07-15T09:08:00Z"},
-
-    {"gid": "sec-411", "name": "Scoping", "project_gid": "proj-302", "project_name": "Henkel Integration Workstream", "created_at": "2026-06-01T08:05:00Z"},
-    {"gid": "sec-412", "name": "In Flight", "project_gid": "proj-302", "project_name": "Henkel Integration Workstream", "created_at": "2026-06-01T08:06:00Z"},
-    {"gid": "sec-413", "name": "Blocked / Pending", "project_gid": "proj-302", "project_name": "Henkel Integration Workstream", "created_at": "2026-06-01T08:07:00Z"},
-    {"gid": "sec-414", "name": "Completed", "project_gid": "proj-302", "project_name": "Henkel Integration Workstream", "created_at": "2026-06-01T08:08:00Z"},
-
-    {"gid": "sec-421", "name": "Briefing", "project_gid": "proj-303", "project_name": "Holiday Campaign 2026", "created_at": "2026-07-01T10:05:00Z"},
-    {"gid": "sec-422", "name": "Production", "project_gid": "proj-303", "project_name": "Holiday Campaign 2026", "created_at": "2026-07-01T10:06:00Z"},
-    {"gid": "sec-423", "name": "Review", "project_gid": "proj-303", "project_name": "Holiday Campaign 2026", "created_at": "2026-07-01T10:07:00Z"},
-    {"gid": "sec-424", "name": "Live", "project_gid": "proj-303", "project_name": "Holiday Campaign 2026", "created_at": "2026-07-01T10:08:00Z"},
-
-    {"gid": "sec-431", "name": "Research & Discovery", "project_gid": "proj-304", "project_name": "New Product Development — Scalp Serum", "created_at": "2026-05-20T09:35:00Z"},
-    {"gid": "sec-432", "name": "Formulation & Testing", "project_gid": "proj-304", "project_name": "New Product Development — Scalp Serum", "created_at": "2026-05-20T09:36:00Z"},
-    {"gid": "sec-433", "name": "Packaging & Regulatory", "project_gid": "proj-304", "project_name": "New Product Development — Scalp Serum", "created_at": "2026-05-20T09:37:00Z"},
-    {"gid": "sec-434", "name": "Launch Readiness", "project_gid": "proj-304", "project_name": "New Product Development — Scalp Serum", "created_at": "2026-05-20T09:38:00Z"},
-
-    {"gid": "sec-441", "name": "Discovery & Planning", "project_gid": "proj-305", "project_name": "E-commerce Platform Migration", "created_at": "2026-06-15T11:05:00Z"},
-    {"gid": "sec-442", "name": "Migration & Build", "project_gid": "proj-305", "project_name": "E-commerce Platform Migration", "created_at": "2026-06-15T11:06:00Z"},
-    {"gid": "sec-443", "name": "QA & Testing", "project_gid": "proj-305", "project_name": "E-commerce Platform Migration", "created_at": "2026-06-15T11:07:00Z"},
-
-    {"gid": "sec-451", "name": "Strategy & Brief", "project_gid": "proj-306", "project_name": "Salon Pro Partner Program Relaunch", "created_at": "2026-07-10T08:35:00Z"},
-    {"gid": "sec-452", "name": "Build & Develop", "project_gid": "proj-306", "project_name": "Salon Pro Partner Program Relaunch", "created_at": "2026-07-10T08:36:00Z"},
-    {"gid": "sec-453", "name": "Outreach & Sales", "project_gid": "proj-306", "project_name": "Salon Pro Partner Program Relaunch", "created_at": "2026-07-10T08:37:00Z"},
-
-    {"gid": "sec-461", "name": "Pending Submission", "project_gid": "proj-307", "project_name": "Q4 Retail Sell-in", "created_at": "2026-08-01T10:05:00Z"},
-    {"gid": "sec-462", "name": "Submitted", "project_gid": "proj-307", "project_name": "Q4 Retail Sell-in", "created_at": "2026-08-01T10:06:00Z"},
-    {"gid": "sec-463", "name": "Confirmed", "project_gid": "proj-307", "project_name": "Q4 Retail Sell-in", "created_at": "2026-08-01T10:07:00Z"},
-
-    {"gid": "sec-471", "name": "Assessment", "project_gid": "proj-308", "project_name": "Supply Chain Optimization", "created_at": "2026-06-20T09:05:00Z"},
-    {"gid": "sec-472", "name": "In Progress", "project_gid": "proj-308", "project_name": "Supply Chain Optimization", "created_at": "2026-06-20T09:06:00Z"},
-    {"gid": "sec-473", "name": "Vendor Negotiations", "project_gid": "proj-308", "project_name": "Supply Chain Optimization", "created_at": "2026-06-20T09:07:00Z"}
+    {
+      "gid": "sec-401",
+      "name": "Planning",
+      "project_gid": "proj-301",
+      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
+      "created_at": "2026-07-15T09:05:00Z"
+    },
+    {
+      "gid": "sec-402",
+      "name": "In Progress",
+      "project_gid": "proj-301",
+      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
+      "created_at": "2026-07-15T09:06:00Z"
+    },
+    {
+      "gid": "sec-403",
+      "name": "Review & Approval",
+      "project_gid": "proj-301",
+      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
+      "created_at": "2026-07-15T09:07:00Z"
+    },
+    {
+      "gid": "sec-404",
+      "name": "Launched",
+      "project_gid": "proj-301",
+      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
+      "created_at": "2026-07-15T09:08:00Z"
+    },
+    {
+      "gid": "sec-411",
+      "name": "Scoping",
+      "project_gid": "proj-302",
+      "project_name": "GlobalCorp Integration Workstream",
+      "created_at": "2026-06-01T08:05:00Z"
+    },
+    {
+      "gid": "sec-412",
+      "name": "In Flight",
+      "project_gid": "proj-302",
+      "project_name": "GlobalCorp Integration Workstream",
+      "created_at": "2026-06-01T08:06:00Z"
+    },
+    {
+      "gid": "sec-413",
+      "name": "Blocked / Pending",
+      "project_gid": "proj-302",
+      "project_name": "GlobalCorp Integration Workstream",
+      "created_at": "2026-06-01T08:07:00Z"
+    },
+    {
+      "gid": "sec-414",
+      "name": "Completed",
+      "project_gid": "proj-302",
+      "project_name": "GlobalCorp Integration Workstream",
+      "created_at": "2026-06-01T08:08:00Z"
+    },
+    {
+      "gid": "sec-421",
+      "name": "Briefing",
+      "project_gid": "proj-303",
+      "project_name": "Holiday Campaign 2026",
+      "created_at": "2026-07-01T10:05:00Z"
+    },
+    {
+      "gid": "sec-422",
+      "name": "Production",
+      "project_gid": "proj-303",
+      "project_name": "Holiday Campaign 2026",
+      "created_at": "2026-07-01T10:06:00Z"
+    },
+    {
+      "gid": "sec-423",
+      "name": "Review",
+      "project_gid": "proj-303",
+      "project_name": "Holiday Campaign 2026",
+      "created_at": "2026-07-01T10:07:00Z"
+    },
+    {
+      "gid": "sec-424",
+      "name": "Live",
+      "project_gid": "proj-303",
+      "project_name": "Holiday Campaign 2026",
+      "created_at": "2026-07-01T10:08:00Z"
+    },
+    {
+      "gid": "sec-431",
+      "name": "Research & Discovery",
+      "project_gid": "proj-304",
+      "project_name": "New Product Development — Scalp Serum",
+      "created_at": "2026-05-20T09:35:00Z"
+    },
+    {
+      "gid": "sec-432",
+      "name": "Formulation & Testing",
+      "project_gid": "proj-304",
+      "project_name": "New Product Development — Scalp Serum",
+      "created_at": "2026-05-20T09:36:00Z"
+    },
+    {
+      "gid": "sec-433",
+      "name": "Packaging & Regulatory",
+      "project_gid": "proj-304",
+      "project_name": "New Product Development — Scalp Serum",
+      "created_at": "2026-05-20T09:37:00Z"
+    },
+    {
+      "gid": "sec-434",
+      "name": "Launch Readiness",
+      "project_gid": "proj-304",
+      "project_name": "New Product Development — Scalp Serum",
+      "created_at": "2026-05-20T09:38:00Z"
+    },
+    {
+      "gid": "sec-441",
+      "name": "Discovery & Planning",
+      "project_gid": "proj-305",
+      "project_name": "E-commerce Platform Migration",
+      "created_at": "2026-06-15T11:05:00Z"
+    },
+    {
+      "gid": "sec-442",
+      "name": "Migration & Build",
+      "project_gid": "proj-305",
+      "project_name": "E-commerce Platform Migration",
+      "created_at": "2026-06-15T11:06:00Z"
+    },
+    {
+      "gid": "sec-443",
+      "name": "QA & Testing",
+      "project_gid": "proj-305",
+      "project_name": "E-commerce Platform Migration",
+      "created_at": "2026-06-15T11:07:00Z"
+    },
+    {
+      "gid": "sec-451",
+      "name": "Strategy & Brief",
+      "project_gid": "proj-306",
+      "project_name": "Salon Pro Partner Program Relaunch",
+      "created_at": "2026-07-10T08:35:00Z"
+    },
+    {
+      "gid": "sec-452",
+      "name": "Build & Develop",
+      "project_gid": "proj-306",
+      "project_name": "Salon Pro Partner Program Relaunch",
+      "created_at": "2026-07-10T08:36:00Z"
+    },
+    {
+      "gid": "sec-453",
+      "name": "Outreach & Sales",
+      "project_gid": "proj-306",
+      "project_name": "Salon Pro Partner Program Relaunch",
+      "created_at": "2026-07-10T08:37:00Z"
+    },
+    {
+      "gid": "sec-461",
+      "name": "Pending Submission",
+      "project_gid": "proj-307",
+      "project_name": "Q4 Retail Sell-in",
+      "created_at": "2026-08-01T10:05:00Z"
+    },
+    {
+      "gid": "sec-462",
+      "name": "Submitted",
+      "project_gid": "proj-307",
+      "project_name": "Q4 Retail Sell-in",
+      "created_at": "2026-08-01T10:06:00Z"
+    },
+    {
+      "gid": "sec-463",
+      "name": "Confirmed",
+      "project_gid": "proj-307",
+      "project_name": "Q4 Retail Sell-in",
+      "created_at": "2026-08-01T10:07:00Z"
+    },
+    {
+      "gid": "sec-471",
+      "name": "Assessment",
+      "project_gid": "proj-308",
+      "project_name": "Supply Chain Optimization",
+      "created_at": "2026-06-20T09:05:00Z"
+    },
+    {
+      "gid": "sec-472",
+      "name": "In Progress",
+      "project_gid": "proj-308",
+      "project_name": "Supply Chain Optimization",
+      "created_at": "2026-06-20T09:06:00Z"
+    },
+    {
+      "gid": "sec-473",
+      "name": "Vendor Negotiations",
+      "project_gid": "proj-308",
+      "project_name": "Supply Chain Optimization",
+      "created_at": "2026-06-20T09:07:00Z"
+    }
   ],
   "tasks": [
     {
@@ -380,7 +707,10 @@
       "completed_at": null,
       "created_at": "2026-07-20T10:00:00Z",
       "modified_at": "2026-09-05T11:00:00Z",
-      "tags": ["legal-review", "launch-critical"],
+      "tags": [
+        "legal-review",
+        "launch-critical"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -402,7 +732,9 @@
       "completed_at": null,
       "created_at": "2026-07-22T09:00:00Z",
       "modified_at": "2026-09-06T14:00:00Z",
-      "tags": ["launch-critical"],
+      "tags": [
+        "launch-critical"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": true,
@@ -424,7 +756,10 @@
       "completed_at": null,
       "created_at": "2026-07-25T10:00:00Z",
       "modified_at": "2026-09-04T09:30:00Z",
-      "tags": ["launch-critical", "external"],
+      "tags": [
+        "launch-critical",
+        "external"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -446,7 +781,10 @@
       "completed_at": null,
       "created_at": "2026-08-01T10:00:00Z",
       "modified_at": "2026-09-07T15:00:00Z",
-      "tags": ["needs-review", "legal-review"],
+      "tags": [
+        "needs-review",
+        "legal-review"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -455,8 +793,8 @@
     },
     {
       "gid": "task-5005",
-      "name": "Set up Sephora launch campaign",
-      "notes": "Coordinate the Sephora exclusive launch window for No. 9 Bond Protector. Includes co-op media brief, Sephora.com PDP setup, Beauty Insider email inclusion, and in-store signage coordination with field team.",
+      "name": "Set up BeautyFirst launch campaign",
+      "notes": "Coordinate the BeautyFirst exclusive launch window for No. 9 Bond Protector. Includes co-op media brief, BeautyFirst.com PDP setup, Beauty Insider email inclusion, and in-store signage coordination with field team.",
       "project_gid": "proj-301",
       "project_name": "No. 9 Bond Protector Launch — Q4 2026",
       "section_gid": "sec-401",
@@ -468,7 +806,10 @@
       "completed_at": null,
       "created_at": "2026-08-05T11:00:00Z",
       "modified_at": "2026-09-08T10:00:00Z",
-      "tags": ["Q4-priority", "external"],
+      "tags": [
+        "Q4-priority",
+        "external"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": true,
@@ -478,9 +819,9 @@
     {
       "gid": "task-5006",
       "name": "Align on shared ERP systems",
-      "notes": "Facilitate joint workshop between Olaplex IT and Henkel IT to define ERP integration approach. Document current Olaplex NetSuite configuration and map to Henkel SAP modules. Deliverable: integration decision brief by Oct 15.",
+      "notes": "Facilitate joint workshop between BondCare IT and GlobalCorp IT to define ERP integration approach. Document current BondCare NetSuite configuration and map to GlobalCorp EnterpriseOne modules. Deliverable: integration decision brief by Oct 15.",
       "project_gid": "proj-302",
-      "project_name": "Henkel Integration Workstream",
+      "project_name": "GlobalCorp Integration Workstream",
       "section_gid": "sec-412",
       "section_name": "In Flight",
       "assignee_gid": "usr-110",
@@ -490,7 +831,10 @@
       "completed_at": null,
       "created_at": "2026-06-10T09:00:00Z",
       "modified_at": "2026-09-01T13:00:00Z",
-      "tags": ["henkel-integration", "blocked"],
+      "tags": [
+        "henkel-integration",
+        "blocked"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -500,9 +844,9 @@
     {
       "gid": "task-5007",
       "name": "Legal entity structure review",
-      "notes": "Work with outside counsel and Henkel legal to review Olaplex's legal entity structure post-acquisition. Identify subsidiaries to be merged, dissolved, or retained. Target completion before year-end close.",
+      "notes": "Work with outside counsel and GlobalCorp legal to review BondCare's legal entity structure post-acquisition. Identify subsidiaries to be merged, dissolved, or retained. Target completion before year-end close.",
       "project_gid": "proj-302",
-      "project_name": "Henkel Integration Workstream",
+      "project_name": "GlobalCorp Integration Workstream",
       "section_gid": "sec-412",
       "section_name": "In Flight",
       "assignee_gid": "usr-107",
@@ -512,7 +856,11 @@
       "completed_at": null,
       "created_at": "2026-06-12T10:00:00Z",
       "modified_at": "2026-08-29T12:00:00Z",
-      "tags": ["henkel-integration", "legal-review", "urgent"],
+      "tags": [
+        "henkel-integration",
+        "legal-review",
+        "urgent"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -521,10 +869,10 @@
     },
     {
       "gid": "task-5008",
-      "name": "Brand guidelines sync with Henkel team",
-      "notes": "Schedule working sessions with Henkel brand team to align on co-branding guidelines. Define where Henkel masterbrand appears on Olaplex packaging, digital, and trade assets. Olaplex brand independence is a key negotiation point.",
+      "name": "Brand guidelines sync with GlobalCorp team",
+      "notes": "Schedule working sessions with GlobalCorp brand team to align on co-branding guidelines. Define where GlobalCorp masterbrand appears on BondCare packaging, digital, and trade assets. BondCare brand independence is a key negotiation point.",
       "project_gid": "proj-302",
-      "project_name": "Henkel Integration Workstream",
+      "project_name": "GlobalCorp Integration Workstream",
       "section_gid": "sec-411",
       "section_name": "Scoping",
       "assignee_gid": "usr-101",
@@ -534,7 +882,10 @@
       "completed_at": null,
       "created_at": "2026-06-15T08:30:00Z",
       "modified_at": "2026-09-02T10:00:00Z",
-      "tags": ["henkel-integration", "external"],
+      "tags": [
+        "henkel-integration",
+        "external"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -544,9 +895,9 @@
     {
       "gid": "task-5009",
       "name": "Supply chain handover documentation",
-      "notes": "Document all Olaplex supply chain processes, key supplier contacts, lead times, and contractual obligations for Henkel operations team handover. Includes No.3 Hair Perfector, No.4 Shampoo, and No.5 Conditioner production lines.",
+      "notes": "Document all BondCare supply chain processes, key supplier contacts, lead times, and contractual obligations for GlobalCorp operations team handover. Includes No.3 Hair Perfector, No.4 Shampoo, and No.5 Conditioner production lines.",
       "project_gid": "proj-302",
-      "project_name": "Henkel Integration Workstream",
+      "project_name": "GlobalCorp Integration Workstream",
       "section_gid": "sec-412",
       "section_name": "In Flight",
       "assignee_gid": "usr-110",
@@ -556,7 +907,10 @@
       "completed_at": null,
       "created_at": "2026-06-18T09:00:00Z",
       "modified_at": "2026-09-05T14:00:00Z",
-      "tags": ["henkel-integration", "Q4-priority"],
+      "tags": [
+        "henkel-integration",
+        "Q4-priority"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -578,7 +932,10 @@
       "completed_at": null,
       "created_at": "2026-07-10T10:00:00Z",
       "modified_at": "2026-09-03T11:00:00Z",
-      "tags": ["Q4-priority", "launch-critical"],
+      "tags": [
+        "Q4-priority",
+        "launch-critical"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": true,
@@ -600,7 +957,9 @@
       "completed_at": null,
       "created_at": "2026-07-15T09:00:00Z",
       "modified_at": "2026-09-06T10:00:00Z",
-      "tags": ["Q4-priority"],
+      "tags": [
+        "Q4-priority"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -622,7 +981,9 @@
       "completed_at": null,
       "created_at": "2026-07-20T10:00:00Z",
       "modified_at": "2026-09-08T08:00:00Z",
-      "tags": ["external"],
+      "tags": [
+        "external"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -631,8 +992,8 @@
     },
     {
       "gid": "task-5013",
-      "name": "Retail display units for Ulta",
-      "notes": "Produce and ship 1,200 holiday endcap display units to Ulta distribution centers. Coordinate with Ulta merchant team on planogram specs and in-store set date (Nov 12). Vendor must deliver by Nov 5 to allow set-up time.",
+      "name": "Retail display units for GlowCo",
+      "notes": "Produce and ship 1,200 holiday endcap display units to GlowCo distribution centers. Coordinate with GlowCo merchant team on planogram specs and in-store set date (Nov 12). Vendor must deliver by Nov 5 to allow set-up time.",
       "project_gid": "proj-303",
       "project_name": "Holiday Campaign 2026",
       "section_gid": "sec-422",
@@ -644,7 +1005,10 @@
       "completed_at": null,
       "created_at": "2026-07-25T11:00:00Z",
       "modified_at": "2026-09-07T14:00:00Z",
-      "tags": ["Q4-priority", "external"],
+      "tags": [
+        "Q4-priority",
+        "external"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -698,7 +1062,7 @@
     {
       "gid": "task-5016",
       "name": "Packaging design concepts",
-      "notes": "Brief design agency on scalp serum packaging. Produce 3 distinct concepts that align with Olaplex brand system. Must accommodate 50ml and 100ml formats. Review session with Trisha and Charlotte scheduled for Oct 10.",
+      "notes": "Brief design agency on scalp serum packaging. Produce 3 distinct concepts that align with BondCare brand system. Must accommodate 50ml and 100ml formats. Review session with Trisha and Charlotte scheduled for Oct 10.",
       "project_gid": "proj-304",
       "project_name": "New Product Development — Scalp Serum",
       "section_gid": "sec-433",
@@ -710,7 +1074,9 @@
       "completed_at": null,
       "created_at": "2026-07-01T10:00:00Z",
       "modified_at": "2026-09-05T13:00:00Z",
-      "tags": ["needs-review"],
+      "tags": [
+        "needs-review"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -732,7 +1098,9 @@
       "completed_at": null,
       "created_at": "2026-07-10T10:00:00Z",
       "modified_at": "2026-08-30T11:00:00Z",
-      "tags": ["legal-review"],
+      "tags": [
+        "legal-review"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -741,8 +1109,8 @@
     },
     {
       "gid": "task-5018",
-      "name": "Shopify to new platform data migration",
-      "notes": "Execute full data migration from Shopify to new enterprise e-commerce platform. Scope includes: customer records (~2.1M), order history (5 years), product catalog (180 SKUs), subscription data, and gift card balances. Validate data integrity post-migration.",
+      "name": "CommercePro to new platform data migration",
+      "notes": "Execute full data migration from CommercePro to new enterprise e-commerce platform. Scope includes: customer records (~2.1M), order history (5 years), product catalog (180 SKUs), subscription data, and gift card balances. Validate data integrity post-migration.",
       "project_gid": "proj-305",
       "project_name": "E-commerce Platform Migration",
       "section_gid": "sec-442",
@@ -754,7 +1122,10 @@
       "completed_at": null,
       "created_at": "2026-06-20T09:00:00Z",
       "modified_at": "2026-09-07T10:00:00Z",
-      "tags": ["blocked", "urgent"],
+      "tags": [
+        "blocked",
+        "urgent"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -786,7 +1157,7 @@
     {
       "gid": "task-5020",
       "name": "SEO redirect mapping",
-      "notes": "Build comprehensive 301 redirect map from legacy Shopify URLs to new platform URLs. Prioritize top 500 pages by organic traffic. Validate all redirects in staging environment. Coordinate with SEO agency (Rise at Seven) for impact assessment.",
+      "notes": "Build comprehensive 301 redirect map from legacy CommercePro URLs to new platform URLs. Prioritize top 500 pages by organic traffic. Validate all redirects in staging environment. Coordinate with SEO agency (Rise at Seven) for impact assessment.",
       "project_gid": "proj-305",
       "project_name": "E-commerce Platform Migration",
       "section_gid": "sec-442",
@@ -798,7 +1169,9 @@
       "completed_at": null,
       "created_at": "2026-07-05T10:00:00Z",
       "modified_at": "2026-09-06T14:00:00Z",
-      "tags": ["urgent"],
+      "tags": [
+        "urgent"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -820,7 +1193,9 @@
       "completed_at": null,
       "created_at": "2026-07-15T09:00:00Z",
       "modified_at": "2026-09-04T12:00:00Z",
-      "tags": ["needs-review"],
+      "tags": [
+        "needs-review"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -830,7 +1205,7 @@
     {
       "gid": "task-5022",
       "name": "Sales deck refresh",
-      "notes": "Refresh Salon Pro sales deck to include Henkel acquisition context, updated product portfolio, new loyalty program tier structure, and Q4 2026 promotional offers. Must be ready for road show starting Oct 1.",
+      "notes": "Refresh Salon Pro sales deck to include GlobalCorp acquisition context, updated product portfolio, new loyalty program tier structure, and Q4 2026 promotional offers. Must be ready for road show starting Oct 1.",
       "project_gid": "proj-306",
       "project_name": "Salon Pro Partner Program Relaunch",
       "section_gid": "sec-451",
@@ -842,7 +1217,9 @@
       "completed_at": null,
       "created_at": "2026-07-20T10:00:00Z",
       "modified_at": "2026-09-03T10:00:00Z",
-      "tags": ["needs-review"],
+      "tags": [
+        "needs-review"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -864,7 +1241,10 @@
       "completed_at": null,
       "created_at": "2026-07-25T09:00:00Z",
       "modified_at": "2026-09-06T09:00:00Z",
-      "tags": ["Q4-priority", "external"],
+      "tags": [
+        "Q4-priority",
+        "external"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": true,
@@ -873,8 +1253,8 @@
     },
     {
       "gid": "task-5024",
-      "name": "Walgreens fall planogram submission",
-      "notes": "Submit Q4 planogram to Walgreens buyer by Sep 20 deadline. Include No.3, No.4, No.5, No.8, and new No.9 Bond Protector. Provide shelf performance data for last 12 months and projected velocity for new SKU.",
+      "name": "HealthMart fall planogram submission",
+      "notes": "Submit Q4 planogram to HealthMart buyer by Sep 20 deadline. Include No.3, No.4, No.5, No.8, and new No.9 Bond Protector. Provide shelf performance data for last 12 months and projected velocity for new SKU.",
       "project_gid": "proj-307",
       "project_name": "Q4 Retail Sell-in",
       "section_gid": "sec-461",
@@ -886,7 +1266,10 @@
       "completed_at": null,
       "created_at": "2026-08-05T10:00:00Z",
       "modified_at": "2026-09-09T09:00:00Z",
-      "tags": ["urgent", "Q4-priority"],
+      "tags": [
+        "urgent",
+        "Q4-priority"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -908,7 +1291,9 @@
       "completed_at": null,
       "created_at": "2026-08-08T10:00:00Z",
       "modified_at": "2026-09-08T14:00:00Z",
-      "tags": ["Q4-priority"],
+      "tags": [
+        "Q4-priority"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -917,8 +1302,8 @@
     },
     {
       "gid": "task-5026",
-      "name": "Ulta Q4 promotional calendar",
-      "notes": "Submit Ulta Q4 promotional calendar including 21 Days of Beauty consideration, Black Friday event participation, and holiday gift set features. Coordinate with Ulta merchant to confirm brand windows.",
+      "name": "GlowCo Q4 promotional calendar",
+      "notes": "Submit GlowCo Q4 promotional calendar including 21 Days of Beauty consideration, Black Friday event participation, and holiday gift set features. Coordinate with GlowCo merchant to confirm brand windows.",
       "project_gid": "proj-307",
       "project_name": "Q4 Retail Sell-in",
       "section_gid": "sec-462",
@@ -930,7 +1315,9 @@
       "completed_at": "2026-09-09T16:00:00Z",
       "created_at": "2026-08-10T10:00:00Z",
       "modified_at": "2026-09-09T16:00:00Z",
-      "tags": ["Q4-priority"],
+      "tags": [
+        "Q4-priority"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": true,
@@ -952,7 +1339,9 @@
       "completed_at": null,
       "created_at": "2026-07-01T09:00:00Z",
       "modified_at": "2026-09-05T13:00:00Z",
-      "tags": ["Q4-priority"],
+      "tags": [
+        "Q4-priority"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -974,7 +1363,9 @@
       "completed_at": null,
       "created_at": "2026-07-05T10:00:00Z",
       "modified_at": "2026-09-07T11:00:00Z",
-      "tags": ["urgent"],
+      "tags": [
+        "urgent"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -984,7 +1375,7 @@
     {
       "gid": "task-5029",
       "name": "Consolidate packaging suppliers",
-      "notes": "Evaluate current packaging supplier base (12 suppliers) and identify consolidation opportunities. Target: reduce to 6-8 strategic suppliers by Q2 2027. Prioritize suppliers with dual US/EU capability to support Henkel integration.",
+      "notes": "Evaluate current packaging supplier base (12 suppliers) and identify consolidation opportunities. Target: reduce to 6-8 strategic suppliers by Q2 2027. Prioritize suppliers with dual US/EU capability to support GlobalCorp integration.",
       "project_gid": "proj-308",
       "project_name": "Supply Chain Optimization",
       "section_gid": "sec-473",
@@ -996,7 +1387,9 @@
       "completed_at": null,
       "created_at": "2026-07-10T10:00:00Z",
       "modified_at": "2026-08-28T12:00:00Z",
-      "tags": ["henkel-integration"],
+      "tags": [
+        "henkel-integration"
+      ],
       "priority": "low",
       "resource_type": "task",
       "liked": false,
@@ -1006,7 +1399,7 @@
     {
       "gid": "task-5030",
       "name": "No.9 homepage hero banner design",
-      "notes": "Design homepage hero banner for Olaplex.com featuring No. 9 Bond Protector launch. Two versions needed: desktop (1440x600) and mobile (375x500). Animated and static versions for A/B test. Hand off to Ryan for implementation.",
+      "notes": "Design homepage hero banner for BondCare.com featuring No. 9 Bond Protector launch. Two versions needed: desktop (1440x600) and mobile (375x500). Animated and static versions for A/B test. Hand off to Ryan for implementation.",
       "project_gid": "proj-301",
       "project_name": "No. 9 Bond Protector Launch — Q4 2026",
       "section_gid": "sec-402",
@@ -1018,7 +1411,9 @@
       "completed_at": null,
       "created_at": "2026-08-10T10:00:00Z",
       "modified_at": "2026-09-09T10:00:00Z",
-      "tags": ["launch-critical"],
+      "tags": [
+        "launch-critical"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -1027,10 +1422,10 @@
     },
     {
       "gid": "task-5031",
-      "name": "Henkel IT security assessment",
-      "notes": "Coordinate with Henkel InfoSec team to complete security assessment of Olaplex IT environment. Review access controls, data classification, and compliance posture. Deliverable: gap assessment report by Oct 31.",
+      "name": "GlobalCorp IT security assessment",
+      "notes": "Coordinate with GlobalCorp InfoSec team to complete security assessment of BondCare IT environment. Review access controls, data classification, and compliance posture. Deliverable: gap assessment report by Oct 31.",
       "project_gid": "proj-302",
-      "project_name": "Henkel Integration Workstream",
+      "project_name": "GlobalCorp Integration Workstream",
       "section_gid": "sec-413",
       "section_name": "Blocked / Pending",
       "assignee_gid": "usr-110",
@@ -1040,7 +1435,10 @@
       "completed_at": null,
       "created_at": "2026-07-01T09:00:00Z",
       "modified_at": "2026-09-01T10:00:00Z",
-      "tags": ["henkel-integration", "blocked"],
+      "tags": [
+        "henkel-integration",
+        "blocked"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -1062,7 +1460,9 @@
       "completed_at": null,
       "created_at": "2026-08-01T10:00:00Z",
       "modified_at": "2026-09-09T09:00:00Z",
-      "tags": ["Q4-priority"],
+      "tags": [
+        "Q4-priority"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": true,
@@ -1093,8 +1493,8 @@
     },
     {
       "gid": "task-5034",
-      "name": "Innovation pipeline review with Henkel R&D",
-      "notes": "Joint session with Henkel R&D and Olaplex Product teams to review Olaplex's 3-year innovation pipeline. Share roadmap for Scalp Serum, potential bond-building line extension, and sustainable packaging initiative. Confidential — NDA required.",
+      "name": "Innovation pipeline review with GlobalCorp R&D",
+      "notes": "Joint session with GlobalCorp R&D and BondCare Product teams to review BondCare's 3-year innovation pipeline. Share roadmap for Scalp Serum, potential bond-building line extension, and sustainable packaging initiative. Confidential — NDA required.",
       "project_gid": "proj-304",
       "project_name": "New Product Development — Scalp Serum",
       "section_gid": "sec-431",
@@ -1106,7 +1506,10 @@
       "completed_at": null,
       "created_at": "2026-08-20T09:00:00Z",
       "modified_at": "2026-09-08T10:00:00Z",
-      "tags": ["henkel-integration", "external"],
+      "tags": [
+        "henkel-integration",
+        "external"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -1115,8 +1518,8 @@
     },
     {
       "gid": "task-5035",
-      "name": "Walgreens planogram data package",
-      "notes": "Prepare supporting data package for Walgreens Q4 planogram submission. Include Nielsen scan data, loyalty basket analysis, and competitive share of shelf. Must be submitted alongside planogram file by Sep 20.",
+      "name": "HealthMart planogram data package",
+      "notes": "Prepare supporting data package for HealthMart Q4 planogram submission. Include Nielsen scan data, loyalty basket analysis, and competitive share of shelf. Must be submitted alongside planogram file by Sep 20.",
       "project_gid": "proj-307",
       "project_name": "Q4 Retail Sell-in",
       "section_gid": "sec-461",
@@ -1128,7 +1531,10 @@
       "completed_at": null,
       "created_at": "2026-08-15T10:00:00Z",
       "modified_at": "2026-09-09T10:00:00Z",
-      "tags": ["urgent", "Q4-priority"],
+      "tags": [
+        "urgent",
+        "Q4-priority"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -1150,7 +1556,9 @@
       "completed_at": null,
       "created_at": "2026-08-01T09:00:00Z",
       "modified_at": "2026-09-06T11:00:00Z",
-      "tags": ["needs-review"],
+      "tags": [
+        "needs-review"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -1172,7 +1580,9 @@
       "completed_at": null,
       "created_at": "2026-08-15T09:00:00Z",
       "modified_at": "2026-09-03T10:00:00Z",
-      "tags": ["legal-review"],
+      "tags": [
+        "legal-review"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -1181,8 +1591,8 @@
     },
     {
       "gid": "task-5038",
-      "name": "Sephora co-op media brief sign-off",
-      "notes": "Get sign-off from Charlotte and John on the Sephora co-op media brief for No. 9 Bond Protector. Brief covers Beauty Insider email, SEO placements, Sephora app push notification, and paid social amplification. Budget: $180,000.",
+      "name": "BeautyFirst co-op media brief sign-off",
+      "notes": "Get sign-off from Charlotte and John on the BeautyFirst co-op media brief for No. 9 Bond Protector. Brief covers Beauty Insider email, SEO placements, BeautyFirst app push notification, and paid social amplification. Budget: $180,000.",
       "project_gid": "proj-301",
       "project_name": "No. 9 Bond Protector Launch — Q4 2026",
       "section_gid": "sec-403",
@@ -1194,7 +1604,11 @@
       "completed_at": null,
       "created_at": "2026-08-20T10:00:00Z",
       "modified_at": "2026-09-09T11:00:00Z",
-      "tags": ["urgent", "launch-critical", "Q4-priority"],
+      "tags": [
+        "urgent",
+        "launch-critical",
+        "Q4-priority"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": true,
@@ -1216,7 +1630,9 @@
       "completed_at": null,
       "created_at": "2026-08-25T10:00:00Z",
       "modified_at": "2026-09-08T14:00:00Z",
-      "tags": ["launch-critical"],
+      "tags": [
+        "launch-critical"
+      ],
       "priority": "high",
       "resource_type": "task",
       "liked": false,
@@ -1226,7 +1642,7 @@
     {
       "gid": "task-5040",
       "name": "Supplier contract renegotiation — primary resin supplier",
-      "notes": "Renegotiate annual contract with primary resin supplier for bottle production. Current contract expires Dec 31. Target: 8% cost reduction and minimum 60-day payment terms. Requires Henkel procurement team involvement given new parent company leverage.",
+      "notes": "Renegotiate annual contract with primary resin supplier for bottle production. Current contract expires Dec 31. Target: 8% cost reduction and minimum 60-day payment terms. Requires GlobalCorp procurement team involvement given new parent company leverage.",
       "project_gid": "proj-308",
       "project_name": "Supply Chain Optimization",
       "section_gid": "sec-473",
@@ -1238,7 +1654,9 @@
       "completed_at": null,
       "created_at": "2026-08-20T09:00:00Z",
       "modified_at": "2026-09-05T11:00:00Z",
-      "tags": ["henkel-integration"],
+      "tags": [
+        "henkel-integration"
+      ],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -1293,7 +1711,7 @@
     },
     {
       "gid": "sub-6005",
-      "name": "Map Olaplex NetSuite modules to Henkel SAP",
+      "name": "Map BondCare NetSuite modules to GlobalCorp EnterpriseOne",
       "parent_gid": "task-5006",
       "parent_name": "Align on shared ERP systems",
       "project_gid": "proj-302",
@@ -1337,9 +1755,9 @@
     },
     {
       "gid": "sub-6009",
-      "name": "Export customer data from Shopify",
+      "name": "Export customer data from CommercePro",
       "parent_gid": "task-5018",
-      "parent_name": "Shopify to new platform data migration",
+      "parent_name": "CommercePro to new platform data migration",
       "project_gid": "proj-305",
       "assignee_name": "Ryan Chen",
       "due_date": "2026-09-20",
@@ -1350,7 +1768,7 @@
       "gid": "sub-6010",
       "name": "Validate order history import on staging",
       "parent_gid": "task-5018",
-      "parent_name": "Shopify to new platform data migration",
+      "parent_name": "CommercePro to new platform data migration",
       "project_gid": "proj-305",
       "assignee_name": "Danielle Park",
       "due_date": "2026-09-28",
@@ -1359,9 +1777,9 @@
     },
     {
       "gid": "sub-6011",
-      "name": "Pull Nielsen data for Walgreens submission",
+      "name": "Pull Nielsen data for HealthMart submission",
       "parent_gid": "task-5024",
-      "parent_name": "Walgreens fall planogram submission",
+      "parent_name": "HealthMart fall planogram submission",
       "project_gid": "proj-307",
       "assignee_name": "John Keppeler",
       "due_date": "2026-09-16",
@@ -1370,9 +1788,9 @@
     },
     {
       "gid": "sub-6012",
-      "name": "Build Walgreens planogram file in JDA",
+      "name": "Build HealthMart planogram file in JDA",
       "parent_gid": "task-5024",
-      "parent_name": "Walgreens fall planogram submission",
+      "parent_name": "HealthMart fall planogram submission",
       "project_gid": "proj-307",
       "assignee_name": "Jake Moreau",
       "due_date": "2026-09-18",
@@ -1454,7 +1872,7 @@
       "gid": "story-7004",
       "resource_type": "story",
       "type": "comment",
-      "text": "Henkel IT team pushed back the ERP workshop to Oct 3. Their SAP migration team is tied up in a Germany rollout until end of September. Tom — can we use this time to finish the NetSuite module mapping?",
+      "text": "GlobalCorp IT team pushed back the ERP workshop to Oct 3. Their EnterpriseOne migration team is tied up in a Germany rollout until end of September. Tom — can we use this time to finish the NetSuite module mapping?",
       "task_gid": "task-5006",
       "task_name": "Align on shared ERP systems",
       "created_at": "2026-09-02T10:15:00Z",
@@ -1466,9 +1884,9 @@
       "gid": "story-7005",
       "resource_type": "story",
       "type": "comment",
-      "text": "Good call with Henkel legal today. They've confirmed we can keep the Olaplex name and brand identity fully independent — no co-branding required on consumer packaging. This is a win. Charlotte, I'll send you the meeting notes.",
+      "text": "Good call with GlobalCorp legal today. They've confirmed we can keep the BondCare name and brand identity fully independent — no co-branding required on consumer packaging. This is a win. Charlotte, I'll send you the meeting notes.",
       "task_gid": "task-5008",
-      "task_name": "Brand guidelines sync with Henkel team",
+      "task_name": "Brand guidelines sync with GlobalCorp team",
       "created_at": "2026-09-03T17:00:00Z",
       "created_by_gid": "usr-102",
       "created_by_name": "John Keppeler",
@@ -1526,9 +1944,9 @@
       "gid": "story-7010",
       "resource_type": "story",
       "type": "comment",
-      "text": "Data migration is blocked. Shopify API rate limits are preventing us from extracting the full order history at the speed we need. Escalating to Shopify enterprise support today. Ryan, let me know if you want me to loop in Commercetools too.",
+      "text": "Data migration is blocked. CommercePro API rate limits are preventing us from extracting the full order history at the speed we need. Escalating to CommercePro enterprise support today. Ryan, let me know if you want me to loop in Commercetools too.",
       "task_gid": "task-5018",
-      "task_name": "Shopify to new platform data migration",
+      "task_name": "CommercePro to new platform data migration",
       "created_at": "2026-09-07T10:30:00Z",
       "created_by_gid": "usr-109",
       "created_by_name": "Danielle Park",
@@ -1538,9 +1956,9 @@
       "gid": "story-7011",
       "resource_type": "story",
       "type": "comment",
-      "text": "Good news: Shopify enterprise bumped our rate limit to 20 calls/sec. We should be able to complete the order history export by Sep 20. Updating the subtask accordingly.",
+      "text": "Good news: CommercePro enterprise bumped our rate limit to 20 calls/sec. We should be able to complete the order history export by Sep 20. Updating the subtask accordingly.",
       "task_gid": "task-5018",
-      "task_name": "Shopify to new platform data migration",
+      "task_name": "CommercePro to new platform data migration",
       "created_at": "2026-09-09T08:00:00Z",
       "created_by_gid": "usr-106",
       "created_by_name": "Ryan Chen",
@@ -1550,9 +1968,9 @@
       "gid": "story-7012",
       "resource_type": "story",
       "type": "comment",
-      "text": "Ulta Q4 promotional calendar submitted and confirmed! We're locked in for 21 Days of Beauty (Oct 12-31), Black Friday endcap, and a holiday gift guide feature. Great outcome — one of our best Ulta agreements to date.",
+      "text": "GlowCo Q4 promotional calendar submitted and confirmed! We're locked in for 21 Days of Beauty (Oct 12-31), Black Friday endcap, and a holiday gift guide feature. Great outcome — one of our best GlowCo agreements to date.",
       "task_gid": "task-5026",
-      "task_name": "Ulta Q4 promotional calendar",
+      "task_name": "GlowCo Q4 promotional calendar",
       "created_at": "2026-09-09T16:30:00Z",
       "created_by_gid": "usr-102",
       "created_by_name": "John Keppeler",
@@ -1574,9 +1992,9 @@
       "gid": "story-7014",
       "resource_type": "story",
       "type": "comment",
-      "text": "Charlotte, I need your sign-off on the Sephora co-op media brief this week. The $180K commitment needs to be approved before Sephora's media planning deadline on Sep 19. Can we set up a 30-min review?",
+      "text": "Charlotte, I need your sign-off on the BeautyFirst co-op media brief this week. The $180K commitment needs to be approved before BeautyFirst's media planning deadline on Sep 19. Can we set up a 30-min review?",
       "task_gid": "task-5038",
-      "task_name": "Sephora co-op media brief sign-off",
+      "task_name": "BeautyFirst co-op media brief sign-off",
       "created_at": "2026-09-08T11:00:00Z",
       "created_by_gid": "usr-106",
       "created_by_name": "Ryan Chen",
@@ -1596,14 +2014,54 @@
     }
   ],
   "tags": [
-    {"gid": "tag-8001", "name": "urgent", "color": "dark-red", "workspace_gid": "ws-1001"},
-    {"gid": "tag-8002", "name": "blocked", "color": "dark-orange", "workspace_gid": "ws-1001"},
-    {"gid": "tag-8003", "name": "needs-review", "color": "dark-yellow", "workspace_gid": "ws-1001"},
-    {"gid": "tag-8004", "name": "Q4-priority", "color": "dark-green", "workspace_gid": "ws-1001"},
-    {"gid": "tag-8005", "name": "henkel-integration", "color": "dark-blue", "workspace_gid": "ws-1001"},
-    {"gid": "tag-8006", "name": "launch-critical", "color": "dark-pink", "workspace_gid": "ws-1001"},
-    {"gid": "tag-8007", "name": "legal-review", "color": "dark-purple", "workspace_gid": "ws-1001"},
-    {"gid": "tag-8008", "name": "external", "color": "light-teal", "workspace_gid": "ws-1001"}
+    {
+      "gid": "tag-8001",
+      "name": "urgent",
+      "color": "dark-red",
+      "workspace_gid": "ws-1001"
+    },
+    {
+      "gid": "tag-8002",
+      "name": "blocked",
+      "color": "dark-orange",
+      "workspace_gid": "ws-1001"
+    },
+    {
+      "gid": "tag-8003",
+      "name": "needs-review",
+      "color": "dark-yellow",
+      "workspace_gid": "ws-1001"
+    },
+    {
+      "gid": "tag-8004",
+      "name": "Q4-priority",
+      "color": "dark-green",
+      "workspace_gid": "ws-1001"
+    },
+    {
+      "gid": "tag-8005",
+      "name": "henkel-integration",
+      "color": "dark-blue",
+      "workspace_gid": "ws-1001"
+    },
+    {
+      "gid": "tag-8006",
+      "name": "launch-critical",
+      "color": "dark-pink",
+      "workspace_gid": "ws-1001"
+    },
+    {
+      "gid": "tag-8007",
+      "name": "legal-review",
+      "color": "dark-purple",
+      "workspace_gid": "ws-1001"
+    },
+    {
+      "gid": "tag-8008",
+      "name": "external",
+      "color": "light-teal",
+      "workspace_gid": "ws-1001"
+    }
   ],
   "portfolios": [
     {
@@ -1614,17 +2072,25 @@
       "workspace_gid": "ws-1001",
       "created_at": "2026-07-01T09:00:00Z",
       "color": "dark-pink",
-      "project_gids": ["proj-301", "proj-303", "proj-306", "proj-307"]
+      "project_gids": [
+        "proj-301",
+        "proj-303",
+        "proj-306",
+        "proj-307"
+      ]
     },
     {
       "gid": "port-9002",
-      "name": "Henkel Integration",
+      "name": "GlobalCorp Integration",
       "owner_gid": "usr-110",
       "owner_name": "Tom Vasquez",
       "workspace_gid": "ws-1001",
       "created_at": "2026-06-01T09:00:00Z",
       "color": "dark-orange",
-      "project_gids": ["proj-302", "proj-308"]
+      "project_gids": [
+        "proj-302",
+        "proj-308"
+      ]
     },
     {
       "gid": "port-9003",
@@ -1634,14 +2100,17 @@
       "workspace_gid": "ws-1001",
       "created_at": "2026-05-20T09:00:00Z",
       "color": "dark-teal",
-      "project_gids": ["proj-304", "proj-305"]
+      "project_gids": [
+        "proj-304",
+        "proj-305"
+      ]
     }
   ],
   "goals": [
     {
       "gid": "goal-10001",
       "name": "Launch 2 new SKUs in Q4 2026",
-      "notes": "Successfully launch No. 9 Bond Protector and Holiday Gift Set collection across all key retail and DTC channels before December 1, 2026. Includes Sephora, Ulta, Walgreens, Target, and Olaplex.com.",
+      "notes": "Successfully launch No. 9 Bond Protector and Holiday Gift Set collection across all key retail and DTC channels before December 1, 2026. Includes BeautyFirst, GlowCo, HealthMart, Target, and BondCare.com.",
       "owner_gid": "usr-101",
       "owner_name": "Charlotte Watson",
       "due_date": "2026-12-01",
@@ -1670,8 +2139,8 @@
     },
     {
       "gid": "goal-10003",
-      "name": "Complete Henkel Integration Milestone 1 by Q4 2026",
-      "notes": "Complete all Milestone 1 Henkel integration workstreams by December 31, 2026. Milestone 1 covers: ERP assessment, legal entity review, brand guidelines, and supply chain documentation.",
+      "name": "Complete GlobalCorp Integration Milestone 1 by Q4 2026",
+      "notes": "Complete all Milestone 1 GlobalCorp integration workstreams by December 31, 2026. Milestone 1 covers: ERP assessment, legal entity review, brand guidelines, and supply chain documentation.",
       "owner_gid": "usr-110",
       "owner_name": "Tom Vasquez",
       "due_date": "2026-12-31",
@@ -1686,7 +2155,7 @@
     {
       "gid": "goal-10004",
       "name": "Achieve $42M DTC e-commerce revenue in 2026",
-      "notes": "Drive $42M in DTC e-commerce revenue for full year 2026 through platform migration, improved conversion, and expanded digital marketing investment post-Henkel acquisition.",
+      "notes": "Drive $42M in DTC e-commerce revenue for full year 2026 through platform migration, improved conversion, and expanded digital marketing investment post-GlobalCorp acquisition.",
       "owner_gid": "usr-106",
       "owner_name": "Ryan Chen",
       "due_date": "2026-12-31",
