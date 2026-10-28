@@ -24,13 +24,20 @@ def _match(record: dict, field: str, value: str) -> bool:
 
 mcp = FastMCP(
     name="asana-mock",
-    version="1.0.0",
+    version="2.0.0",
     instructions=(
-        "Mock Asana project management for Olaplex hair care brand. Query workspaces, "
-        "projects, tasks, sections, subtasks, comments, tags, portfolios, and goals. "
-        "Use asana_task_search to find tasks across projects. Key projects: No.9 Bond "
-        "Protector Launch, Henkel Integration, Holiday Campaign 2026, Scalp Serum "
-        "Development, E-commerce Migration."
+        "Mock Asana project management for Meridian Creative Group, an independent global "
+        "creative and marketing agency specializing in entertainment, gaming, consumer brands, "
+        "and sports. Query workspaces, projects, tasks, sections, subtasks, comments, tags, "
+        "portfolios, and goals. Use asana_task_search to find tasks across projects. "
+        "Key active projects: Paramount+ Fall Streaming Campaign (Nov 18 launch, Concept A "
+        "'Your Next Obsession', $120K media budget, 6s/15s/30s cuts), Paramount+ Always-On "
+        "Social Retainer, NOVA Studios Rift Protocol Launch (gaming, Feb 2027), Solstice "
+        "Athletic Q4 Holiday Campaign ($2.1M media), Apex Energy NFL Sponsorship Activation. "
+        "Key team: Jonathan Reyes (Group CD), Bella Okafor (Sr Producer), Brenda Castillo "
+        "(Media Strategy Director), Priya Nair (Account Director), Devon Walsh (Sr Art Director), "
+        "Sofia Mendez (Copywriter), Tariq Johnson (Paid Media Manager), Hannah Park (Strategy). "
+        "Today is 2026-10-28."
     ),
 )
 

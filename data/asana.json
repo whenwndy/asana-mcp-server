@@ -2,1369 +2,501 @@
   "workspaces": [
     {
       "gid": "ws-1001",
-      "name": "BondCare",
-      "resource_type": "workspace"
+      "name": "Meridian Creative Group",
+      "resource_type": "workspace",
+      "is_organization": true,
+      "email_domains": [
+        "meridiancreative.co"
+      ]
     }
   ],
   "users": [
     {
-      "gid": "usr-101",
-      "name": "Charlotte Watson",
-      "email": "charlotte.watson@olaplex.com",
-      "resource_type": "user",
+      "gid": "usr-001",
+      "name": "Jonathan Reyes",
+      "email": "j.reyes@meridiancreative.co",
+      "role": "Group Creative Director",
       "workspaces": [
         {
           "gid": "ws-1001"
         }
-      ]
+      ],
+      "team_gid": "team-101"
     },
     {
-      "gid": "usr-102",
-      "name": "John Keppeler",
-      "email": "john.keppeler@olaplex.com",
-      "resource_type": "user",
+      "gid": "usr-002",
+      "name": "Bella Okafor",
+      "email": "b.okafor@meridiancreative.co",
+      "role": "Senior Producer",
       "workspaces": [
         {
           "gid": "ws-1001"
         }
-      ]
+      ],
+      "team_gid": "team-101"
     },
     {
-      "gid": "usr-103",
-      "name": "Trisha Fox",
-      "email": "trisha.fox@olaplex.com",
-      "resource_type": "user",
+      "gid": "usr-003",
+      "name": "Brenda Castillo",
+      "email": "b.castillo@meridiancreative.co",
+      "role": "Media Strategy Director",
       "workspaces": [
         {
           "gid": "ws-1001"
         }
-      ]
+      ],
+      "team_gid": "team-101"
     },
     {
-      "gid": "usr-104",
-      "name": "Marcus Reid",
-      "email": "marcus.reid@olaplex.com",
-      "resource_type": "user",
+      "gid": "usr-004",
+      "name": "Marcus Lin",
+      "email": "m.lin@meridiancreative.co",
+      "role": "Creative Director \u2013 Gaming",
       "workspaces": [
         {
           "gid": "ws-1001"
         }
-      ]
+      ],
+      "team_gid": "team-102"
     },
     {
-      "gid": "usr-105",
-      "name": "Sofia Delgado",
-      "email": "sofia.delgado@olaplex.com",
-      "resource_type": "user",
-      "workspaces": [
-        {
-          "gid": "ws-1001"
-        }
-      ]
-    },
-    {
-      "gid": "usr-106",
-      "name": "Ryan Chen",
-      "email": "ryan.chen@olaplex.com",
-      "resource_type": "user",
-      "workspaces": [
-        {
-          "gid": "ws-1001"
-        }
-      ]
-    },
-    {
-      "gid": "usr-107",
+      "gid": "usr-005",
       "name": "Priya Nair",
-      "email": "priya.nair@olaplex.com",
-      "resource_type": "user",
+      "email": "p.nair@meridiancreative.co",
+      "role": "Account Director",
       "workspaces": [
         {
           "gid": "ws-1001"
         }
-      ]
+      ],
+      "team_gid": "team-101"
     },
     {
-      "gid": "usr-108",
-      "name": "Jake Moreau",
-      "email": "jake.moreau@olaplex.com",
-      "resource_type": "user",
+      "gid": "usr-006",
+      "name": "Devon Walsh",
+      "email": "d.walsh@meridiancreative.co",
+      "role": "Senior Art Director",
       "workspaces": [
         {
           "gid": "ws-1001"
         }
-      ]
+      ],
+      "team_gid": "team-101"
     },
     {
-      "gid": "usr-109",
-      "name": "Danielle Park",
-      "email": "danielle.park@olaplex.com",
-      "resource_type": "user",
+      "gid": "usr-007",
+      "name": "Sofia Mendez",
+      "email": "s.mendez@meridiancreative.co",
+      "role": "Copywriter",
       "workspaces": [
         {
           "gid": "ws-1001"
         }
-      ]
+      ],
+      "team_gid": "team-101"
     },
     {
-      "gid": "usr-110",
-      "name": "Tom Vasquez",
-      "email": "tom.vasquez@olaplex.com",
-      "resource_type": "user",
+      "gid": "usr-008",
+      "name": "Tariq Johnson",
+      "email": "t.johnson@meridiancreative.co",
+      "role": "Paid Media Manager",
       "workspaces": [
         {
           "gid": "ws-1001"
         }
-      ]
+      ],
+      "team_gid": "team-103"
+    },
+    {
+      "gid": "usr-009",
+      "name": "Hannah Park",
+      "email": "h.park@meridiancreative.co",
+      "role": "Strategy & Insights Lead",
+      "workspaces": [
+        {
+          "gid": "ws-1001"
+        }
+      ],
+      "team_gid": "team-101"
+    },
+    {
+      "gid": "usr-010",
+      "name": "Eli Chambers",
+      "email": "e.chambers@meridiancreative.co",
+      "role": "Project Manager",
+      "workspaces": [
+        {
+          "gid": "ws-1001"
+        }
+      ],
+      "team_gid": "team-105"
     }
   ],
   "teams": [
     {
-      "gid": "team-201",
-      "name": "Marketing & Brand",
-      "description": "Brand strategy, campaigns, content, influencer marketing, and retail marketing programs.",
-      "resource_type": "team",
-      "organization_gid": "ws-1001"
+      "gid": "team-101",
+      "name": "Entertainment & Streaming",
+      "organization_gid": "ws-1001",
+      "description": "Campaigns for streaming platforms, film studios, and broadcast networks"
     },
     {
-      "gid": "team-202",
-      "name": "Product Development",
-      "description": "New product ideation, formulation, packaging, regulatory, and go-to-market readiness.",
-      "resource_type": "team",
-      "organization_gid": "ws-1001"
+      "gid": "team-102",
+      "name": "Gaming & Interactive",
+      "organization_gid": "ws-1001",
+      "description": "Game launches, esports activations, and interactive brand campaigns"
     },
     {
-      "gid": "team-203",
-      "name": "E-commerce & Digital",
-      "description": "BondCare.com, DTC e-commerce, SEO, paid digital, and platform operations.",
-      "resource_type": "team",
-      "organization_gid": "ws-1001"
+      "gid": "team-103",
+      "name": "Consumer Brands",
+      "organization_gid": "ws-1001",
+      "description": "CPG, lifestyle, fashion, and retail brand campaigns"
     },
     {
-      "gid": "team-204",
-      "name": "Sales & Revenue",
-      "description": "Retail accounts, salon professional channel, distributor partnerships, and revenue planning.",
-      "resource_type": "team",
-      "organization_gid": "ws-1001"
+      "gid": "team-104",
+      "name": "Sports & Sponsorship",
+      "organization_gid": "ws-1001",
+      "description": "Sports marketing, athlete partnerships, and sponsorship activation"
     },
     {
-      "gid": "team-205",
-      "name": "Operations & Supply Chain",
-      "description": "Manufacturing, 3PL logistics, supply chain planning, and post-GlobalCorp integration operations.",
-      "resource_type": "team",
-      "organization_gid": "ws-1001"
+      "gid": "team-105",
+      "name": "Agency Operations",
+      "organization_gid": "ws-1001",
+      "description": "Finance, HR, vendor management, and agency-wide initiatives"
     }
   ],
   "projects": [
     {
-      "gid": "proj-301",
-      "name": "No. 9 Bond Protector Launch — Q4 2026",
-      "notes": "Full go-to-market launch of No. 9 Bond Protector across DTC, BeautyFirst, and GlowCo channels for Q4 2026. Includes product claims finalization, creative assets, influencer activation, and retail set-up.",
-      "team_gid": "team-201",
-      "team_name": "Marketing & Brand",
-      "workspace_gid": "ws-1001",
+      "gid": "proj-001",
+      "name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "notes": "Acquisition-focused campaign for Paramount+ fall slate. Concept: 'Your Next Obsession'. November 18 launch. 6s, 15s, and 30s creative across YouTube, TikTok, CTV, and social.",
       "status": "active",
-      "color": "dark-pink",
-      "created_at": "2026-07-15T09:00:00Z",
-      "modified_at": "2026-09-08T14:22:00Z",
-      "due_date": "2026-11-01",
-      "owner_gid": "usr-101",
-      "owner_name": "Charlotte Watson",
-      "members": [
-        {
-          "gid": "usr-101",
-          "name": "Charlotte Watson"
-        },
-        {
-          "gid": "usr-104",
-          "name": "Marcus Reid"
-        },
-        {
-          "gid": "usr-105",
-          "name": "Sofia Delgado"
-        },
-        {
-          "gid": "usr-106",
-          "name": "Ryan Chen"
-        }
-      ],
+      "color": "dark_purple",
+      "workspace_gid": "ws-1001",
+      "team_gid": "team-101",
+      "owner_gid": "usr-001",
+      "owner_name": "Jonathan Reyes",
+      "due_date": "2026-11-18",
+      "created_at": "2026-10-01T09:00:00Z",
+      "modified_at": "2026-10-28T14:22:00Z",
       "completed": false,
-      "completed_at": null,
-      "custom_fields": [
-        {
-          "name": "Channel",
-          "type": "enum"
-        },
-        {
-          "name": "Launch Date",
-          "type": "date"
-        }
+      "archived": false,
+      "members": [
+        "usr-001",
+        "usr-002",
+        "usr-003",
+        "usr-005",
+        "usr-006",
+        "usr-007",
+        "usr-009",
+        "usr-010"
       ]
     },
     {
-      "gid": "proj-302",
-      "name": "GlobalCorp Integration Workstream",
-      "notes": "Post-acquisition integration tasks following GlobalCorp's $1.4B acquisition of BondCare in 2026. Covers ERP alignment, legal entity restructuring, brand guidelines sync, and supply chain handover.",
-      "team_gid": "team-205",
-      "team_name": "Operations & Supply Chain",
-      "workspace_gid": "ws-1001",
+      "gid": "proj-002",
+      "name": "Paramount+ \u2013 Always-On Social Retainer",
+      "notes": "Ongoing social content retainer for Paramount+ across Instagram, X, TikTok, and Facebook. Monthly content calendars and performance reporting.",
       "status": "active",
-      "color": "dark-orange",
-      "created_at": "2026-06-01T08:00:00Z",
-      "modified_at": "2026-09-09T11:05:00Z",
-      "due_date": "2026-12-31",
-      "owner_gid": "usr-110",
-      "owner_name": "Tom Vasquez",
-      "members": [
-        {
-          "gid": "usr-110",
-          "name": "Tom Vasquez"
-        },
-        {
-          "gid": "usr-107",
-          "name": "Priya Nair"
-        },
-        {
-          "gid": "usr-102",
-          "name": "John Keppeler"
-        },
-        {
-          "gid": "usr-103",
-          "name": "Trisha Fox"
-        }
-      ],
+      "color": "dark_purple",
+      "workspace_gid": "ws-1001",
+      "team_gid": "team-101",
+      "owner_gid": "usr-005",
+      "owner_name": "Priya Nair",
+      "due_date": null,
+      "created_at": "2026-01-10T09:00:00Z",
+      "modified_at": "2026-10-25T10:00:00Z",
       "completed": false,
-      "completed_at": null,
-      "custom_fields": [
-        {
-          "name": "Workstream",
-          "type": "text"
-        },
-        {
-          "name": "GlobalCorp Owner",
-          "type": "text"
-        }
+      "archived": false,
+      "members": [
+        "usr-002",
+        "usr-005",
+        "usr-006",
+        "usr-007",
+        "usr-010"
       ]
     },
     {
-      "gid": "proj-303",
-      "name": "Holiday Campaign 2026",
-      "notes": "Annual holiday marketing campaign covering gift sets, Black Friday/Cyber Monday promotions, influencer gifting, and in-store retail activations at GlowCo and BeautyFirst.",
-      "team_gid": "team-201",
-      "team_name": "Marketing & Brand",
-      "workspace_gid": "ws-1001",
+      "gid": "proj-003",
+      "name": "NOVA Studios \u2013 Rift Protocol Launch Campaign",
+      "notes": "Integrated campaign for NOVA Studios' AAA title 'Rift Protocol'. Covers trailers, influencer activations, esports sponsorship, and retail POS. Launch window: February 2027.",
       "status": "active",
-      "color": "light-red",
-      "created_at": "2026-07-01T10:00:00Z",
-      "modified_at": "2026-09-07T16:40:00Z",
-      "due_date": "2026-12-01",
-      "owner_gid": "usr-101",
-      "owner_name": "Charlotte Watson",
-      "members": [
-        {
-          "gid": "usr-101",
-          "name": "Charlotte Watson"
-        },
-        {
-          "gid": "usr-104",
-          "name": "Marcus Reid"
-        },
-        {
-          "gid": "usr-105",
-          "name": "Sofia Delgado"
-        }
-      ],
+      "color": "dark_green",
+      "workspace_gid": "ws-1001",
+      "team_gid": "team-102",
+      "owner_gid": "usr-004",
+      "owner_name": "Marcus Lin",
+      "due_date": "2027-02-12",
+      "created_at": "2026-08-15T10:00:00Z",
+      "modified_at": "2026-10-27T16:00:00Z",
       "completed": false,
-      "completed_at": null,
-      "custom_fields": [
-        {
-          "name": "Retailer",
-          "type": "enum"
-        },
-        {
-          "name": "Budget",
-          "type": "number"
-        }
+      "archived": false,
+      "members": [
+        "usr-004",
+        "usr-006",
+        "usr-008",
+        "usr-009",
+        "usr-010"
       ]
     },
     {
-      "gid": "proj-304",
-      "name": "New Product Development — Scalp Serum",
-      "notes": "Development of a new scalp care serum SKU targeting the prestige scalp health category. Includes consumer research, formulation, stability testing, packaging, and regulatory submission.",
-      "team_gid": "team-202",
-      "team_name": "Product Development",
-      "workspace_gid": "ws-1001",
+      "gid": "proj-004",
+      "name": "Solstice Athletic \u2013 Q4 Holiday Performance Campaign",
+      "notes": "Performance marketing campaign for Solstice Athletic apparel. Focus on gifting season, UGC content, and paid social acquisition. $2.1M media budget.",
       "status": "active",
-      "color": "dark-teal",
-      "created_at": "2026-05-20T09:30:00Z",
-      "modified_at": "2026-09-05T13:00:00Z",
-      "due_date": "2027-03-31",
-      "owner_gid": "usr-103",
-      "owner_name": "Trisha Fox",
-      "members": [
-        {
-          "gid": "usr-103",
-          "name": "Trisha Fox"
-        },
-        {
-          "gid": "usr-107",
-          "name": "Priya Nair"
-        },
-        {
-          "gid": "usr-105",
-          "name": "Sofia Delgado"
-        }
-      ],
+      "color": "dark_orange",
+      "workspace_gid": "ws-1001",
+      "team_gid": "team-103",
+      "owner_gid": "usr-008",
+      "owner_name": "Tariq Johnson",
+      "due_date": "2026-12-26",
+      "created_at": "2026-09-01T09:00:00Z",
+      "modified_at": "2026-10-26T11:00:00Z",
       "completed": false,
-      "completed_at": null,
-      "custom_fields": [
-        {
-          "name": "Stage Gate",
-          "type": "enum"
-        },
-        {
-          "name": "Regulatory Region",
-          "type": "text"
-        }
+      "archived": false,
+      "members": [
+        "usr-006",
+        "usr-007",
+        "usr-008",
+        "usr-009",
+        "usr-010"
       ]
     },
     {
-      "gid": "proj-305",
-      "name": "E-commerce Platform Migration",
-      "notes": "Migration from legacy CommercePro infrastructure to a new enterprise e-commerce platform. Includes data migration, QA, SEO redirects, and post-launch monitoring.",
-      "team_gid": "team-203",
-      "team_name": "E-commerce & Digital",
-      "workspace_gid": "ws-1001",
+      "gid": "proj-005",
+      "name": "Apex Energy \u2013 NFL Season Sponsorship Activation",
+      "notes": "Sponsorship activation for Apex Energy's NFL season partnership. In-stadium, broadcast, digital, and social. Runs through Super Bowl window.",
       "status": "active",
-      "color": "dark-purple",
-      "created_at": "2026-06-15T11:00:00Z",
-      "modified_at": "2026-09-08T09:15:00Z",
-      "due_date": "2026-11-15",
-      "owner_gid": "usr-106",
-      "owner_name": "Ryan Chen",
-      "members": [
-        {
-          "gid": "usr-106",
-          "name": "Ryan Chen"
-        },
-        {
-          "gid": "usr-108",
-          "name": "Jake Moreau"
-        },
-        {
-          "gid": "usr-109",
-          "name": "Danielle Park"
-        }
-      ],
+      "color": "dark_blue",
+      "workspace_gid": "ws-1001",
+      "team_gid": "team-104",
+      "owner_gid": "usr-009",
+      "owner_name": "Hannah Park",
+      "due_date": "2027-02-08",
+      "created_at": "2026-07-20T09:00:00Z",
+      "modified_at": "2026-10-20T14:00:00Z",
       "completed": false,
-      "completed_at": null,
-      "custom_fields": [
-        {
-          "name": "Environment",
-          "type": "enum"
-        },
-        {
-          "name": "Ticket URL",
-          "type": "text"
-        }
+      "archived": false,
+      "members": [
+        "usr-006",
+        "usr-007",
+        "usr-008",
+        "usr-009",
+        "usr-010"
       ]
     },
     {
-      "gid": "proj-306",
-      "name": "Salon Pro Partner Program Relaunch",
-      "notes": "Relaunch of the BondCare Professional salon partner program with updated portal UX, refreshed sales collateral, and outreach to top salon accounts in North America.",
-      "team_gid": "team-204",
-      "team_name": "Sales & Revenue",
-      "workspace_gid": "ws-1001",
+      "gid": "proj-006",
+      "name": "New Business \u2013 Q4 RFP Pipeline",
+      "notes": "Tracking active RFPs and pitch responses for Q4. Three active pitches: a major streaming platform, a QSR brand, and a sports apparel company.",
       "status": "active",
-      "color": "light-blue",
-      "created_at": "2026-07-10T08:30:00Z",
-      "modified_at": "2026-09-06T15:20:00Z",
-      "due_date": "2026-10-31",
-      "owner_gid": "usr-102",
-      "owner_name": "John Keppeler",
-      "members": [
-        {
-          "gid": "usr-102",
-          "name": "John Keppeler"
-        },
-        {
-          "gid": "usr-108",
-          "name": "Jake Moreau"
-        },
-        {
-          "gid": "usr-109",
-          "name": "Danielle Park"
-        }
-      ],
+      "color": "dark_warm_gray",
+      "workspace_gid": "ws-1001",
+      "team_gid": "team-105",
+      "owner_gid": "usr-010",
+      "owner_name": "Eli Chambers",
+      "due_date": "2026-12-15",
+      "created_at": "2026-09-10T09:00:00Z",
+      "modified_at": "2026-10-22T09:00:00Z",
       "completed": false,
-      "completed_at": null,
-      "custom_fields": [
-        {
-          "name": "Region",
-          "type": "enum"
-        },
-        {
-          "name": "Account Tier",
-          "type": "enum"
-        }
+      "archived": false,
+      "members": [
+        "usr-001",
+        "usr-003",
+        "usr-005",
+        "usr-009",
+        "usr-010"
       ]
     },
     {
-      "gid": "proj-307",
-      "name": "Q4 Retail Sell-in",
-      "notes": "Q4 retail sell-in negotiations and submissions for major retail partners including HealthMart, Target, and GlowCo. Covers planogram submissions, endcap proposals, and promotional calendars.",
-      "team_gid": "team-204",
-      "team_name": "Sales & Revenue",
+      "gid": "proj-007",
+      "name": "Paramount+ \u2013 Summer Movie Month Campaign",
+      "notes": "Completed. Summer acquisition campaign tied to the theatrical-to-streaming window. Ran June 1 \u2013 August 31, 2026. Exceeded new subscriber targets by 14%.",
+      "status": "archived",
+      "color": "dark_purple",
       "workspace_gid": "ws-1001",
-      "status": "active",
-      "color": "dark-green",
-      "created_at": "2026-08-01T10:00:00Z",
-      "modified_at": "2026-09-09T08:45:00Z",
-      "due_date": "2026-10-15",
-      "owner_gid": "usr-102",
-      "owner_name": "John Keppeler",
+      "team_gid": "team-101",
+      "owner_gid": "usr-001",
+      "owner_name": "Jonathan Reyes",
+      "due_date": "2026-08-31",
+      "created_at": "2026-04-15T09:00:00Z",
+      "modified_at": "2026-09-05T09:00:00Z",
+      "completed": true,
+      "archived": true,
       "members": [
-        {
-          "gid": "usr-102",
-          "name": "John Keppeler"
-        },
-        {
-          "gid": "usr-108",
-          "name": "Jake Moreau"
-        },
-        {
-          "gid": "usr-101",
-          "name": "Charlotte Watson"
-        }
-      ],
-      "completed": false,
-      "completed_at": null,
-      "custom_fields": [
-        {
-          "name": "Retailer",
-          "type": "enum"
-        },
-        {
-          "name": "Submission Deadline",
-          "type": "date"
-        }
+        "usr-001",
+        "usr-002",
+        "usr-003",
+        "usr-005",
+        "usr-006"
       ]
     },
     {
-      "gid": "proj-308",
-      "name": "Supply Chain Optimization",
-      "notes": "Cross-functional initiative to reduce lead times, improve 3PL fulfillment accuracy, and consolidate packaging suppliers as part of the post-GlobalCorp integration efficiency drive.",
-      "team_gid": "team-205",
-      "team_name": "Operations & Supply Chain",
+      "gid": "proj-008",
+      "name": "NOVA Studios \u2013 Brand Identity Refresh",
+      "notes": "Completed brand identity refresh for NOVA Studios ahead of Rift Protocol launch. Delivered updated logo suite, color system, typography, and motion guidelines.",
+      "status": "archived",
+      "color": "dark_green",
       "workspace_gid": "ws-1001",
-      "status": "active",
-      "color": "dark-brown",
-      "created_at": "2026-06-20T09:00:00Z",
-      "modified_at": "2026-09-08T12:30:00Z",
-      "due_date": "2026-12-31",
-      "owner_gid": "usr-110",
-      "owner_name": "Tom Vasquez",
+      "team_gid": "team-102",
+      "owner_gid": "usr-004",
+      "owner_name": "Marcus Lin",
+      "due_date": "2026-09-30",
+      "created_at": "2026-06-01T09:00:00Z",
+      "modified_at": "2026-10-02T09:00:00Z",
+      "completed": true,
+      "archived": true,
       "members": [
-        {
-          "gid": "usr-110",
-          "name": "Tom Vasquez"
-        },
-        {
-          "gid": "usr-107",
-          "name": "Priya Nair"
-        },
-        {
-          "gid": "usr-103",
-          "name": "Trisha Fox"
-        }
-      ],
-      "completed": false,
-      "completed_at": null,
-      "custom_fields": [
-        {
-          "name": "Cost Savings Target",
-          "type": "number"
-        },
-        {
-          "name": "Supplier",
-          "type": "text"
-        }
+        "usr-004",
+        "usr-006",
+        "usr-007"
       ]
     }
   ],
   "sections": [
     {
-      "gid": "sec-401",
-      "name": "Planning",
-      "project_gid": "proj-301",
-      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
-      "created_at": "2026-07-15T09:05:00Z"
-    },
-    {
-      "gid": "sec-402",
-      "name": "In Progress",
-      "project_gid": "proj-301",
-      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
-      "created_at": "2026-07-15T09:06:00Z"
-    },
-    {
-      "gid": "sec-403",
-      "name": "Review & Approval",
-      "project_gid": "proj-301",
-      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
-      "created_at": "2026-07-15T09:07:00Z"
-    },
-    {
-      "gid": "sec-404",
-      "name": "Launched",
-      "project_gid": "proj-301",
-      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
-      "created_at": "2026-07-15T09:08:00Z"
-    },
-    {
-      "gid": "sec-411",
-      "name": "Scoping",
-      "project_gid": "proj-302",
-      "project_name": "GlobalCorp Integration Workstream",
-      "created_at": "2026-06-01T08:05:00Z"
-    },
-    {
-      "gid": "sec-412",
-      "name": "In Flight",
-      "project_gid": "proj-302",
-      "project_name": "GlobalCorp Integration Workstream",
-      "created_at": "2026-06-01T08:06:00Z"
-    },
-    {
-      "gid": "sec-413",
-      "name": "Blocked / Pending",
-      "project_gid": "proj-302",
-      "project_name": "GlobalCorp Integration Workstream",
-      "created_at": "2026-06-01T08:07:00Z"
-    },
-    {
-      "gid": "sec-414",
-      "name": "Completed",
-      "project_gid": "proj-302",
-      "project_name": "GlobalCorp Integration Workstream",
-      "created_at": "2026-06-01T08:08:00Z"
-    },
-    {
-      "gid": "sec-421",
-      "name": "Briefing",
-      "project_gid": "proj-303",
-      "project_name": "Holiday Campaign 2026",
-      "created_at": "2026-07-01T10:05:00Z"
-    },
-    {
-      "gid": "sec-422",
-      "name": "Production",
-      "project_gid": "proj-303",
-      "project_name": "Holiday Campaign 2026",
-      "created_at": "2026-07-01T10:06:00Z"
-    },
-    {
-      "gid": "sec-423",
-      "name": "Review",
-      "project_gid": "proj-303",
-      "project_name": "Holiday Campaign 2026",
-      "created_at": "2026-07-01T10:07:00Z"
-    },
-    {
-      "gid": "sec-424",
-      "name": "Live",
-      "project_gid": "proj-303",
-      "project_name": "Holiday Campaign 2026",
-      "created_at": "2026-07-01T10:08:00Z"
-    },
-    {
-      "gid": "sec-431",
-      "name": "Research & Discovery",
-      "project_gid": "proj-304",
-      "project_name": "New Product Development — Scalp Serum",
-      "created_at": "2026-05-20T09:35:00Z"
-    },
-    {
-      "gid": "sec-432",
-      "name": "Formulation & Testing",
-      "project_gid": "proj-304",
-      "project_name": "New Product Development — Scalp Serum",
-      "created_at": "2026-05-20T09:36:00Z"
-    },
-    {
-      "gid": "sec-433",
-      "name": "Packaging & Regulatory",
-      "project_gid": "proj-304",
-      "project_name": "New Product Development — Scalp Serum",
-      "created_at": "2026-05-20T09:37:00Z"
-    },
-    {
-      "gid": "sec-434",
-      "name": "Launch Readiness",
-      "project_gid": "proj-304",
-      "project_name": "New Product Development — Scalp Serum",
-      "created_at": "2026-05-20T09:38:00Z"
-    },
-    {
-      "gid": "sec-441",
-      "name": "Discovery & Planning",
-      "project_gid": "proj-305",
-      "project_name": "E-commerce Platform Migration",
-      "created_at": "2026-06-15T11:05:00Z"
-    },
-    {
-      "gid": "sec-442",
-      "name": "Migration & Build",
-      "project_gid": "proj-305",
-      "project_name": "E-commerce Platform Migration",
-      "created_at": "2026-06-15T11:06:00Z"
-    },
-    {
-      "gid": "sec-443",
-      "name": "QA & Testing",
-      "project_gid": "proj-305",
-      "project_name": "E-commerce Platform Migration",
-      "created_at": "2026-06-15T11:07:00Z"
-    },
-    {
-      "gid": "sec-451",
+      "gid": "sec-001",
       "name": "Strategy & Brief",
-      "project_gid": "proj-306",
-      "project_name": "Salon Pro Partner Program Relaunch",
-      "created_at": "2026-07-10T08:35:00Z"
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign"
     },
     {
-      "gid": "sec-452",
-      "name": "Build & Develop",
-      "project_gid": "proj-306",
-      "project_name": "Salon Pro Partner Program Relaunch",
-      "created_at": "2026-07-10T08:36:00Z"
+      "gid": "sec-002",
+      "name": "Creative Development",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign"
     },
     {
-      "gid": "sec-453",
-      "name": "Outreach & Sales",
-      "project_gid": "proj-306",
-      "project_name": "Salon Pro Partner Program Relaunch",
-      "created_at": "2026-07-10T08:37:00Z"
+      "gid": "sec-003",
+      "name": "Production",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign"
     },
     {
-      "gid": "sec-461",
-      "name": "Pending Submission",
-      "project_gid": "proj-307",
-      "project_name": "Q4 Retail Sell-in",
-      "created_at": "2026-08-01T10:05:00Z"
+      "gid": "sec-004",
+      "name": "Media Planning & Buying",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign"
     },
     {
-      "gid": "sec-462",
+      "gid": "sec-005",
+      "name": "Legal & Approvals",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign"
+    },
+    {
+      "gid": "sec-006",
+      "name": "Launch & Go-Live",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign"
+    },
+    {
+      "gid": "sec-011",
+      "name": "October Content Calendar",
+      "project_gid": "proj-002",
+      "project_name": "Paramount+ \u2013 Always-On Social Retainer"
+    },
+    {
+      "gid": "sec-012",
+      "name": "November Content Calendar",
+      "project_gid": "proj-002",
+      "project_name": "Paramount+ \u2013 Always-On Social Retainer"
+    },
+    {
+      "gid": "sec-013",
+      "name": "Reporting",
+      "project_gid": "proj-002",
+      "project_name": "Paramount+ \u2013 Always-On Social Retainer"
+    },
+    {
+      "gid": "sec-021",
+      "name": "Campaign Strategy",
+      "project_gid": "proj-003",
+      "project_name": "NOVA Studios \u2013 Rift Protocol Launch Campaign"
+    },
+    {
+      "gid": "sec-022",
+      "name": "Trailer & Video",
+      "project_gid": "proj-003",
+      "project_name": "NOVA Studios \u2013 Rift Protocol Launch Campaign"
+    },
+    {
+      "gid": "sec-023",
+      "name": "Influencer & Esports",
+      "project_gid": "proj-003",
+      "project_name": "NOVA Studios \u2013 Rift Protocol Launch Campaign"
+    },
+    {
+      "gid": "sec-024",
+      "name": "Paid Media",
+      "project_gid": "proj-003",
+      "project_name": "NOVA Studios \u2013 Rift Protocol Launch Campaign"
+    },
+    {
+      "gid": "sec-031",
+      "name": "Creative",
+      "project_gid": "proj-004",
+      "project_name": "Solstice Athletic \u2013 Q4 Holiday Performance Campaign"
+    },
+    {
+      "gid": "sec-032",
+      "name": "Paid Social",
+      "project_gid": "proj-004",
+      "project_name": "Solstice Athletic \u2013 Q4 Holiday Performance Campaign"
+    },
+    {
+      "gid": "sec-033",
+      "name": "Influencer",
+      "project_gid": "proj-004",
+      "project_name": "Solstice Athletic \u2013 Q4 Holiday Performance Campaign"
+    },
+    {
+      "gid": "sec-041",
+      "name": "In-Stadium & Broadcast",
+      "project_gid": "proj-005",
+      "project_name": "Apex Energy \u2013 NFL Season Sponsorship Activation"
+    },
+    {
+      "gid": "sec-042",
+      "name": "Digital & Social",
+      "project_gid": "proj-005",
+      "project_name": "Apex Energy \u2013 NFL Season Sponsorship Activation"
+    },
+    {
+      "gid": "sec-051",
+      "name": "Active Pitches",
+      "project_gid": "proj-006",
+      "project_name": "New Business \u2013 Q4 RFP Pipeline"
+    },
+    {
+      "gid": "sec-052",
       "name": "Submitted",
-      "project_gid": "proj-307",
-      "project_name": "Q4 Retail Sell-in",
-      "created_at": "2026-08-01T10:06:00Z"
+      "project_gid": "proj-006",
+      "project_name": "New Business \u2013 Q4 RFP Pipeline"
     },
     {
-      "gid": "sec-463",
-      "name": "Confirmed",
-      "project_gid": "proj-307",
-      "project_name": "Q4 Retail Sell-in",
-      "created_at": "2026-08-01T10:07:00Z"
-    },
-    {
-      "gid": "sec-471",
-      "name": "Assessment",
-      "project_gid": "proj-308",
-      "project_name": "Supply Chain Optimization",
-      "created_at": "2026-06-20T09:05:00Z"
-    },
-    {
-      "gid": "sec-472",
-      "name": "In Progress",
-      "project_gid": "proj-308",
-      "project_name": "Supply Chain Optimization",
-      "created_at": "2026-06-20T09:06:00Z"
-    },
-    {
-      "gid": "sec-473",
-      "name": "Vendor Negotiations",
-      "project_gid": "proj-308",
-      "project_name": "Supply Chain Optimization",
-      "created_at": "2026-06-20T09:07:00Z"
+      "gid": "sec-053",
+      "name": "Won / Lost",
+      "project_gid": "proj-006",
+      "project_name": "New Business \u2013 Q4 RFP Pipeline"
     }
   ],
   "tasks": [
     {
-      "gid": "task-5001",
-      "name": "Finalize product claims with legal",
-      "notes": "Legal team needs to sign off on all No. 9 Bond Protector marketing claims before any assets are finalized. This includes packaging copy, PDP claims, and ad creative. FDA compliance and FTC guidelines must be checked.",
-      "project_gid": "proj-301",
-      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
-      "section_gid": "sec-402",
-      "section_name": "In Progress",
-      "assignee_gid": "usr-105",
-      "assignee_name": "Sofia Delgado",
-      "due_date": "2026-09-19",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-20T10:00:00Z",
-      "modified_at": "2026-09-05T11:00:00Z",
-      "tags": [
-        "legal-review",
-        "launch-critical"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5002",
-      "name": "Shoot hero product imagery",
-      "notes": "Commission and shoot hero product imagery for No. 9 Bond Protector. Must include lifestyle shots, flat lay, and close-up detail. Studio booked for September 22. Provide creative brief to photographer by Sep 18.",
-      "project_gid": "proj-301",
-      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
-      "section_gid": "sec-402",
-      "section_name": "In Progress",
-      "assignee_gid": "usr-104",
-      "assignee_name": "Marcus Reid",
-      "due_date": "2026-09-25",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-22T09:00:00Z",
-      "modified_at": "2026-09-06T14:00:00Z",
-      "tags": [
-        "launch-critical"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": true,
-      "num_likes": 3,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5003",
-      "name": "Brief influencer partners on launch",
-      "notes": "Send full launch brief to Tier 1 influencer partners. Include product seeding kits, key messages, embargo date (Oct 28), and content guidelines. Coordinate with PR agency on outreach list.",
-      "project_gid": "proj-301",
-      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
-      "section_gid": "sec-402",
-      "section_name": "In Progress",
-      "assignee_gid": "usr-105",
-      "assignee_name": "Sofia Delgado",
-      "due_date": "2026-10-01",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-25T10:00:00Z",
-      "modified_at": "2026-09-04T09:30:00Z",
-      "tags": [
-        "launch-critical",
-        "external"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 1,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5004",
-      "name": "Submit PDP copy for review",
-      "notes": "Draft and submit product detail page copy for No. 9 Bond Protector to the content review committee. Include headline, subhead, key benefits, how-to-use, and ingredient callouts. Must pass legal review before submission.",
-      "project_gid": "proj-301",
-      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
-      "section_gid": "sec-403",
-      "section_name": "Review & Approval",
-      "assignee_gid": "usr-104",
-      "assignee_name": "Marcus Reid",
-      "due_date": "2026-09-22",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-08-01T10:00:00Z",
-      "modified_at": "2026-09-07T15:00:00Z",
-      "tags": [
-        "needs-review",
-        "legal-review"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5005",
-      "name": "Set up BeautyFirst launch campaign",
-      "notes": "Coordinate the BeautyFirst exclusive launch window for No. 9 Bond Protector. Includes co-op media brief, BeautyFirst.com PDP setup, Beauty Insider email inclusion, and in-store signage coordination with field team.",
-      "project_gid": "proj-301",
-      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
-      "section_gid": "sec-401",
-      "section_name": "Planning",
-      "assignee_gid": "usr-106",
-      "assignee_name": "Ryan Chen",
-      "due_date": "2026-10-10",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-08-05T11:00:00Z",
-      "modified_at": "2026-09-08T10:00:00Z",
-      "tags": [
-        "Q4-priority",
-        "external"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": true,
-      "num_likes": 2,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5006",
-      "name": "Align on shared ERP systems",
-      "notes": "Facilitate joint workshop between BondCare IT and GlobalCorp IT to define ERP integration approach. Document current BondCare NetSuite configuration and map to GlobalCorp EnterpriseOne modules. Deliverable: integration decision brief by Oct 15.",
-      "project_gid": "proj-302",
-      "project_name": "GlobalCorp Integration Workstream",
-      "section_gid": "sec-412",
-      "section_name": "In Flight",
-      "assignee_gid": "usr-110",
-      "assignee_name": "Tom Vasquez",
-      "due_date": "2026-10-15",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-06-10T09:00:00Z",
-      "modified_at": "2026-09-01T13:00:00Z",
-      "tags": [
-        "henkel-integration",
-        "blocked"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5007",
-      "name": "Legal entity structure review",
-      "notes": "Work with outside counsel and GlobalCorp legal to review BondCare's legal entity structure post-acquisition. Identify subsidiaries to be merged, dissolved, or retained. Target completion before year-end close.",
-      "project_gid": "proj-302",
-      "project_name": "GlobalCorp Integration Workstream",
-      "section_gid": "sec-412",
-      "section_name": "In Flight",
-      "assignee_gid": "usr-107",
-      "assignee_name": "Priya Nair",
-      "due_date": "2026-11-30",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-06-12T10:00:00Z",
-      "modified_at": "2026-08-29T12:00:00Z",
-      "tags": [
-        "henkel-integration",
-        "legal-review",
-        "urgent"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5008",
-      "name": "Brand guidelines sync with GlobalCorp team",
-      "notes": "Schedule working sessions with GlobalCorp brand team to align on co-branding guidelines. Define where GlobalCorp masterbrand appears on BondCare packaging, digital, and trade assets. BondCare brand independence is a key negotiation point.",
-      "project_gid": "proj-302",
-      "project_name": "GlobalCorp Integration Workstream",
-      "section_gid": "sec-411",
-      "section_name": "Scoping",
-      "assignee_gid": "usr-101",
-      "assignee_name": "Charlotte Watson",
-      "due_date": "2026-10-01",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-06-15T08:30:00Z",
-      "modified_at": "2026-09-02T10:00:00Z",
-      "tags": [
-        "henkel-integration",
-        "external"
-      ],
-      "priority": "medium",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5009",
-      "name": "Supply chain handover documentation",
-      "notes": "Document all BondCare supply chain processes, key supplier contacts, lead times, and contractual obligations for GlobalCorp operations team handover. Includes No.3 Hair Perfector, No.4 Shampoo, and No.5 Conditioner production lines.",
-      "project_gid": "proj-302",
-      "project_name": "GlobalCorp Integration Workstream",
-      "section_gid": "sec-412",
-      "section_name": "In Flight",
-      "assignee_gid": "usr-110",
-      "assignee_name": "Tom Vasquez",
-      "due_date": "2026-09-30",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-06-18T09:00:00Z",
-      "modified_at": "2026-09-05T14:00:00Z",
-      "tags": [
-        "henkel-integration",
-        "Q4-priority"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5010",
-      "name": "Holiday gift set packaging design",
-      "notes": "Design packaging for the 2026 holiday gift set collection. Three SKUs planned: The Essential Strength Set, The Repair & Restore Kit, and The Salon Starter Bundle. Must align with holiday creative brief. Deadline for print-ready files: Oct 5.",
-      "project_gid": "proj-303",
-      "project_name": "Holiday Campaign 2026",
-      "section_gid": "sec-422",
-      "section_name": "Production",
-      "assignee_gid": "usr-104",
-      "assignee_name": "Marcus Reid",
-      "due_date": "2026-10-05",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-10T10:00:00Z",
-      "modified_at": "2026-09-03T11:00:00Z",
-      "tags": [
-        "Q4-priority",
-        "launch-critical"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": true,
-      "num_likes": 4,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5011",
-      "name": "Black Friday email sequence",
-      "notes": "Build 5-email Black Friday/Cyber Monday sequence in Klaviyo. Includes teaser (Nov 25), launch day (Nov 27), extended sale (Nov 29), last chance (Dec 1), and cyber wrap-up (Dec 2). Segment by purchase history and loyalty tier.",
-      "project_gid": "proj-303",
-      "project_name": "Holiday Campaign 2026",
-      "section_gid": "sec-421",
-      "section_name": "Briefing",
-      "assignee_gid": "usr-105",
-      "assignee_name": "Sofia Delgado",
-      "due_date": "2026-10-20",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-15T09:00:00Z",
-      "modified_at": "2026-09-06T10:00:00Z",
-      "tags": [
-        "Q4-priority"
-      ],
-      "priority": "medium",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 1,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5012",
-      "name": "Influencer gifting logistics",
-      "notes": "Coordinate holiday gifting kits for 150 influencer partners. Kits include full holiday gift set plus handwritten note and brand lookbook. Work with fulfillment partner to ship by Nov 15. Budget: $45,000.",
-      "project_gid": "proj-303",
-      "project_name": "Holiday Campaign 2026",
-      "section_gid": "sec-422",
-      "section_name": "Production",
-      "assignee_gid": "usr-105",
-      "assignee_name": "Sofia Delgado",
-      "due_date": "2026-11-10",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-20T10:00:00Z",
-      "modified_at": "2026-09-08T08:00:00Z",
-      "tags": [
-        "external"
-      ],
-      "priority": "medium",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5013",
-      "name": "Retail display units for GlowCo",
-      "notes": "Produce and ship 1,200 holiday endcap display units to GlowCo distribution centers. Coordinate with GlowCo merchant team on planogram specs and in-store set date (Nov 12). Vendor must deliver by Nov 5 to allow set-up time.",
-      "project_gid": "proj-303",
-      "project_name": "Holiday Campaign 2026",
-      "section_gid": "sec-422",
-      "section_name": "Production",
-      "assignee_gid": "usr-108",
-      "assignee_name": "Jake Moreau",
-      "due_date": "2026-11-05",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-25T11:00:00Z",
-      "modified_at": "2026-09-07T14:00:00Z",
-      "tags": [
-        "Q4-priority",
-        "external"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5014",
-      "name": "Consumer research synthesis",
-      "notes": "Synthesize findings from Q2 scalp health consumer research study (n=600). Identify top unmet needs, ingredient preferences, price sensitivity, and competitive whitespace. Output: 10-slide insights deck for innovation brief.",
-      "project_gid": "proj-304",
-      "project_name": "New Product Development — Scalp Serum",
-      "section_gid": "sec-431",
-      "section_name": "Research & Discovery",
-      "assignee_gid": "usr-103",
-      "assignee_name": "Trisha Fox",
-      "due_date": "2026-09-20",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-06-01T10:00:00Z",
-      "modified_at": "2026-09-01T11:00:00Z",
-      "tags": [],
-      "priority": "medium",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5015",
-      "name": "Formula stability testing",
-      "notes": "Run 12-week accelerated stability tests on top 3 scalp serum formula candidates. Test at 40°C/75%RH and ambient conditions. Report must confirm 24-month shelf life. Work with contract lab (Eurofins) for turnaround.",
-      "project_gid": "proj-304",
-      "project_name": "New Product Development — Scalp Serum",
-      "section_gid": "sec-432",
-      "section_name": "Formulation & Testing",
-      "assignee_gid": "usr-107",
-      "assignee_name": "Priya Nair",
-      "due_date": "2026-12-15",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-06-15T10:00:00Z",
-      "modified_at": "2026-09-03T12:00:00Z",
-      "tags": [],
-      "priority": "medium",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5016",
-      "name": "Packaging design concepts",
-      "notes": "Brief design agency on scalp serum packaging. Produce 3 distinct concepts that align with BondCare brand system. Must accommodate 50ml and 100ml formats. Review session with Trisha and Charlotte scheduled for Oct 10.",
-      "project_gid": "proj-304",
-      "project_name": "New Product Development — Scalp Serum",
-      "section_gid": "sec-433",
-      "section_name": "Packaging & Regulatory",
-      "assignee_gid": "usr-104",
-      "assignee_name": "Marcus Reid",
-      "due_date": "2026-10-10",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-01T10:00:00Z",
-      "modified_at": "2026-09-05T13:00:00Z",
-      "tags": [
-        "needs-review"
-      ],
-      "priority": "medium",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5017",
-      "name": "Regulatory submission",
-      "notes": "Prepare and submit regulatory dossier for scalp serum in US and EU markets. EU requires CPNP notification; US requires ingredient INCI listing review. Engage regulatory consultant. Target submissions by Jan 2027.",
-      "project_gid": "proj-304",
-      "project_name": "New Product Development — Scalp Serum",
-      "section_gid": "sec-433",
-      "section_name": "Packaging & Regulatory",
-      "assignee_gid": "usr-107",
-      "assignee_name": "Priya Nair",
-      "due_date": "2027-01-31",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-10T10:00:00Z",
-      "modified_at": "2026-08-30T11:00:00Z",
-      "tags": [
-        "legal-review"
-      ],
-      "priority": "medium",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5018",
-      "name": "CommercePro to new platform data migration",
-      "notes": "Execute full data migration from CommercePro to new enterprise e-commerce platform. Scope includes: customer records (~2.1M), order history (5 years), product catalog (180 SKUs), subscription data, and gift card balances. Validate data integrity post-migration.",
-      "project_gid": "proj-305",
-      "project_name": "E-commerce Platform Migration",
-      "section_gid": "sec-442",
-      "section_name": "Migration & Build",
-      "assignee_gid": "usr-106",
-      "assignee_name": "Ryan Chen",
-      "due_date": "2026-10-01",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-06-20T09:00:00Z",
-      "modified_at": "2026-09-07T10:00:00Z",
-      "tags": [
-        "blocked",
-        "urgent"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5019",
-      "name": "QA checkout flow",
-      "notes": "Complete end-to-end QA of checkout flow on new platform. Test all payment methods (credit card, PayPal, Shop Pay, Afterpay), promo code redemption, subscription checkout, and gift card application. Target: zero P1 bugs before go-live.",
-      "project_gid": "proj-305",
-      "project_name": "E-commerce Platform Migration",
-      "section_gid": "sec-443",
-      "section_name": "QA & Testing",
-      "assignee_gid": "usr-109",
-      "assignee_name": "Danielle Park",
-      "due_date": "2026-10-20",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-01T10:00:00Z",
-      "modified_at": "2026-09-08T11:00:00Z",
-      "tags": [],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5020",
-      "name": "SEO redirect mapping",
-      "notes": "Build comprehensive 301 redirect map from legacy CommercePro URLs to new platform URLs. Prioritize top 500 pages by organic traffic. Validate all redirects in staging environment. Coordinate with SEO agency (Rise at Seven) for impact assessment.",
-      "project_gid": "proj-305",
-      "project_name": "E-commerce Platform Migration",
-      "section_gid": "sec-442",
-      "section_name": "Migration & Build",
-      "assignee_gid": "usr-108",
-      "assignee_name": "Jake Moreau",
-      "due_date": "2026-09-30",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-05T10:00:00Z",
-      "modified_at": "2026-09-06T14:00:00Z",
-      "tags": [
-        "urgent"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5021",
-      "name": "Update pro portal UI",
-      "notes": "Redesign the Salon Professional portal UI. Key improvements: streamlined account registration, order history visibility, training resource library, and loyalty points dashboard. Work with UX designer on wireframes by Sep 25.",
-      "project_gid": "proj-306",
-      "project_name": "Salon Pro Partner Program Relaunch",
-      "section_gid": "sec-452",
-      "section_name": "Build & Develop",
-      "assignee_gid": "usr-109",
-      "assignee_name": "Danielle Park",
-      "due_date": "2026-10-15",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-15T09:00:00Z",
-      "modified_at": "2026-09-04T12:00:00Z",
-      "tags": [
-        "needs-review"
-      ],
-      "priority": "medium",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5022",
-      "name": "Sales deck refresh",
-      "notes": "Refresh Salon Pro sales deck to include GlobalCorp acquisition context, updated product portfolio, new loyalty program tier structure, and Q4 2026 promotional offers. Must be ready for road show starting Oct 1.",
-      "project_gid": "proj-306",
-      "project_name": "Salon Pro Partner Program Relaunch",
-      "section_gid": "sec-451",
+      "gid": "task-p001-001",
+      "name": "Finalize campaign brief \u2013 'Your Next Obsession'",
+      "notes": "Campaign brief locked on Concept A: acquisition-focused, headline 'Your Next Obsession'. Approved by Jonathan. Circulate final PDF to full project team and Paramount+ stakeholders.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-001",
       "section_name": "Strategy & Brief",
-      "assignee_gid": "usr-108",
-      "assignee_name": "Jake Moreau",
-      "due_date": "2026-09-28",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-20T10:00:00Z",
-      "modified_at": "2026-09-03T10:00:00Z",
-      "tags": [
-        "needs-review"
-      ],
-      "priority": "medium",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 2,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5023",
-      "name": "Outreach to top 500 salon accounts",
-      "notes": "Identify and prioritize top 500 salon accounts by revenue. Assign to regional reps for personalized outreach. Offer early access to relaunched Pro portal and Q4 incentive bonus. Target: 60% re-engagement rate by Nov 1.",
-      "project_gid": "proj-306",
-      "project_name": "Salon Pro Partner Program Relaunch",
-      "section_gid": "sec-453",
-      "section_name": "Outreach & Sales",
-      "assignee_gid": "usr-102",
-      "assignee_name": "John Keppeler",
-      "due_date": "2026-11-01",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-25T09:00:00Z",
-      "modified_at": "2026-09-06T09:00:00Z",
-      "tags": [
-        "Q4-priority",
-        "external"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": true,
-      "num_likes": 3,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5024",
-      "name": "HealthMart fall planogram submission",
-      "notes": "Submit Q4 planogram to HealthMart buyer by Sep 20 deadline. Include No.3, No.4, No.5, No.8, and new No.9 Bond Protector. Provide shelf performance data for last 12 months and projected velocity for new SKU.",
-      "project_gid": "proj-307",
-      "project_name": "Q4 Retail Sell-in",
-      "section_gid": "sec-461",
-      "section_name": "Pending Submission",
-      "assignee_gid": "usr-108",
-      "assignee_name": "Jake Moreau",
-      "due_date": "2026-09-20",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-08-05T10:00:00Z",
-      "modified_at": "2026-09-09T09:00:00Z",
-      "tags": [
-        "urgent",
-        "Q4-priority"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5025",
-      "name": "Target endcap proposal",
-      "notes": "Develop holiday endcap proposal for Target. Must align with Target's Beauty category reset timeline (Nov 1). Include 4-foot endcap layout with gift sets and key hero SKUs. Coordinate with Target merchant and field team.",
-      "project_gid": "proj-307",
-      "project_name": "Q4 Retail Sell-in",
-      "section_gid": "sec-461",
-      "section_name": "Pending Submission",
-      "assignee_gid": "usr-108",
-      "assignee_name": "Jake Moreau",
-      "due_date": "2026-09-25",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-08-08T10:00:00Z",
-      "modified_at": "2026-09-08T14:00:00Z",
-      "tags": [
-        "Q4-priority"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 1,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5026",
-      "name": "GlowCo Q4 promotional calendar",
-      "notes": "Submit GlowCo Q4 promotional calendar including 21 Days of Beauty consideration, Black Friday event participation, and holiday gift set features. Coordinate with GlowCo merchant to confirm brand windows.",
-      "project_gid": "proj-307",
-      "project_name": "Q4 Retail Sell-in",
-      "section_gid": "sec-462",
-      "section_name": "Submitted",
-      "assignee_gid": "usr-102",
-      "assignee_name": "John Keppeler",
-      "due_date": "2026-09-15",
-      "completed": true,
-      "completed_at": "2026-09-09T16:00:00Z",
-      "created_at": "2026-08-10T10:00:00Z",
-      "modified_at": "2026-09-09T16:00:00Z",
-      "tags": [
-        "Q4-priority"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": true,
-      "num_likes": 5,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5027",
-      "name": "Reduce lead time on No.3 Hair Perfector",
-      "notes": "Analyze current manufacturing and logistics lead time for No.3 Hair Perfector (currently 14 weeks). Identify top 3 reduction opportunities. Target: reduce to 10 weeks by Q1 2027. Key lever is moving secondary packaging in-house.",
-      "project_gid": "proj-308",
-      "project_name": "Supply Chain Optimization",
-      "section_gid": "sec-472",
-      "section_name": "In Progress",
-      "assignee_gid": "usr-110",
-      "assignee_name": "Tom Vasquez",
-      "due_date": "2026-12-01",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-01T09:00:00Z",
-      "modified_at": "2026-09-05T13:00:00Z",
-      "tags": [
-        "Q4-priority"
-      ],
-      "priority": "medium",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5028",
-      "name": "Audit 3PL fulfillment accuracy",
-      "notes": "Conduct audit of primary 3PL partner (Radial) for DTC order fulfillment accuracy. Review pick/pack error rates, damage rates, and SLA compliance over last 6 months. Current accuracy rate is 97.2%; target is 99.5%.",
-      "project_gid": "proj-308",
-      "project_name": "Supply Chain Optimization",
-      "section_gid": "sec-471",
-      "section_name": "Assessment",
-      "assignee_gid": "usr-107",
+      "assignee_gid": "usr-005",
       "assignee_name": "Priya Nair",
-      "due_date": "2026-09-30",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-05T10:00:00Z",
-      "modified_at": "2026-09-07T11:00:00Z",
+      "due_date": "2026-10-10",
+      "completed": true,
+      "completed_at": "2026-10-10T16:45:00Z",
+      "created_at": "2026-10-01T09:00:00Z",
+      "modified_at": "2026-10-10T16:45:00Z",
       "tags": [
-        "urgent"
+        "client-facing"
       ],
       "priority": "high",
       "resource_type": "task",
@@ -1373,167 +505,72 @@
       "parent_gid": null
     },
     {
-      "gid": "task-5029",
-      "name": "Consolidate packaging suppliers",
-      "notes": "Evaluate current packaging supplier base (12 suppliers) and identify consolidation opportunities. Target: reduce to 6-8 strategic suppliers by Q2 2027. Prioritize suppliers with dual US/EU capability to support GlobalCorp integration.",
-      "project_gid": "proj-308",
-      "project_name": "Supply Chain Optimization",
-      "section_gid": "sec-473",
-      "section_name": "Vendor Negotiations",
-      "assignee_gid": "usr-110",
-      "assignee_name": "Tom Vasquez",
-      "due_date": "2027-02-28",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-07-10T10:00:00Z",
-      "modified_at": "2026-08-28T12:00:00Z",
+      "gid": "task-p001-002",
+      "name": "Audience insights & competitive landscape report",
+      "notes": "Hannah to deliver streaming-category audience segmentation: cord-cutters 25-44, lapsed subscribers, and genre-affinity cohorts (crime drama, reality, sports). Include competitive share-of-voice snapshot for Netflix, Hulu, Max.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-001",
+      "section_name": "Strategy & Brief",
+      "assignee_gid": "usr-009",
+      "assignee_name": "Hannah Park",
+      "due_date": "2026-10-14",
+      "completed": true,
+      "completed_at": "2026-10-13T17:30:00Z",
+      "created_at": "2026-10-01T09:15:00Z",
+      "modified_at": "2026-10-13T17:30:00Z",
       "tags": [
-        "henkel-integration"
+        "client-facing"
       ],
-      "priority": "low",
+      "priority": "high",
       "resource_type": "task",
       "liked": false,
       "num_likes": 0,
       "parent_gid": null
     },
     {
-      "gid": "task-5030",
-      "name": "No.9 homepage hero banner design",
-      "notes": "Design homepage hero banner for BondCare.com featuring No. 9 Bond Protector launch. Two versions needed: desktop (1440x600) and mobile (375x500). Animated and static versions for A/B test. Hand off to Ryan for implementation.",
-      "project_gid": "proj-301",
-      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
-      "section_gid": "sec-402",
-      "section_name": "In Progress",
-      "assignee_gid": "usr-106",
-      "assignee_name": "Ryan Chen",
-      "due_date": "2026-10-05",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-08-10T10:00:00Z",
-      "modified_at": "2026-09-09T10:00:00Z",
+      "gid": "task-p001-003",
+      "name": "Concept A selection confirmed \u2013 kick off 'Your Next Obsession' creative",
+      "notes": "Jonathan selected Concept A for its acquisition focus over Concept B (retention/loyalty angle). Bella to lead production on 6-second, 15-second, and 30-second versions. Initial storyboards due Friday Oct 31.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-002",
+      "section_name": "Creative Development",
+      "assignee_gid": "usr-001",
+      "assignee_name": "Jonathan Reyes",
+      "due_date": "2026-10-28",
+      "completed": true,
+      "completed_at": "2026-10-28T10:00:00Z",
+      "created_at": "2026-10-14T09:00:00Z",
+      "modified_at": "2026-10-28T10:00:00Z",
       "tags": [
-        "launch-critical"
+        "client-facing",
+        "creative-assets"
       ],
-      "priority": "medium",
+      "priority": "high",
       "resource_type": "task",
       "liked": false,
-      "num_likes": 1,
+      "num_likes": 0,
       "parent_gid": null
     },
     {
-      "gid": "task-5031",
-      "name": "GlobalCorp IT security assessment",
-      "notes": "Coordinate with GlobalCorp InfoSec team to complete security assessment of BondCare IT environment. Review access controls, data classification, and compliance posture. Deliverable: gap assessment report by Oct 31.",
-      "project_gid": "proj-302",
-      "project_name": "GlobalCorp Integration Workstream",
-      "section_gid": "sec-413",
-      "section_name": "Blocked / Pending",
-      "assignee_gid": "usr-110",
-      "assignee_name": "Tom Vasquez",
+      "gid": "task-p001-004",
+      "name": "Storyboards \u2013 6s, 15s, 30s versions (all three cuts)",
+      "notes": "Produce initial storyboards for all three ad lengths for client review. Formats: 9:16 vertical (TikTok, Reels, Stories) and 16:9 landscape (YouTube, CTV). Due Friday Oct 31. Devon to art direct; Sofia on copy.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-002",
+      "section_name": "Creative Development",
+      "assignee_gid": "usr-002",
+      "assignee_name": "Bella Okafor",
       "due_date": "2026-10-31",
       "completed": false,
       "completed_at": null,
-      "created_at": "2026-07-01T09:00:00Z",
-      "modified_at": "2026-09-01T10:00:00Z",
+      "created_at": "2026-10-28T10:05:00Z",
+      "modified_at": "2026-10-28T10:05:00Z",
       "tags": [
-        "henkel-integration",
-        "blocked"
-      ],
-      "priority": "medium",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5032",
-      "name": "Holiday campaign creative brief",
-      "notes": "Write and distribute the master creative brief for Holiday 2026 campaign. Must define campaign theme, visual direction, copy tone, channel guidance (social, email, OOH, in-store), and key dates. Brief due to agency by Sep 20.",
-      "project_gid": "proj-303",
-      "project_name": "Holiday Campaign 2026",
-      "section_gid": "sec-421",
-      "section_name": "Briefing",
-      "assignee_gid": "usr-101",
-      "assignee_name": "Charlotte Watson",
-      "due_date": "2026-09-20",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-08-01T10:00:00Z",
-      "modified_at": "2026-09-09T09:00:00Z",
-      "tags": [
-        "Q4-priority"
-      ],
-      "priority": "high",
-      "resource_type": "task",
-      "liked": true,
-      "num_likes": 2,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5033",
-      "name": "Post-migration SEO performance monitoring",
-      "notes": "Set up weekly SEO monitoring cadence post-migration. Track organic impressions, clicks, and rankings for top 100 keywords using Google Search Console and SEMrush. Alert threshold: >10% week-over-week traffic drop triggers escalation.",
-      "project_gid": "proj-305",
-      "project_name": "E-commerce Platform Migration",
-      "section_gid": "sec-443",
-      "section_name": "QA & Testing",
-      "assignee_gid": "usr-106",
-      "assignee_name": "Ryan Chen",
-      "due_date": "2026-11-30",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-08-05T10:00:00Z",
-      "modified_at": "2026-09-04T12:00:00Z",
-      "tags": [],
-      "priority": "low",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5034",
-      "name": "Innovation pipeline review with GlobalCorp R&D",
-      "notes": "Joint session with GlobalCorp R&D and BondCare Product teams to review BondCare's 3-year innovation pipeline. Share roadmap for Scalp Serum, potential bond-building line extension, and sustainable packaging initiative. Confidential — NDA required.",
-      "project_gid": "proj-304",
-      "project_name": "New Product Development — Scalp Serum",
-      "section_gid": "sec-431",
-      "section_name": "Research & Discovery",
-      "assignee_gid": "usr-103",
-      "assignee_name": "Trisha Fox",
-      "due_date": "2026-10-05",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-08-20T09:00:00Z",
-      "modified_at": "2026-09-08T10:00:00Z",
-      "tags": [
-        "henkel-integration",
-        "external"
-      ],
-      "priority": "medium",
-      "resource_type": "task",
-      "liked": false,
-      "num_likes": 0,
-      "parent_gid": null
-    },
-    {
-      "gid": "task-5035",
-      "name": "HealthMart planogram data package",
-      "notes": "Prepare supporting data package for HealthMart Q4 planogram submission. Include Nielsen scan data, loyalty basket analysis, and competitive share of shelf. Must be submitted alongside planogram file by Sep 20.",
-      "project_gid": "proj-307",
-      "project_name": "Q4 Retail Sell-in",
-      "section_gid": "sec-461",
-      "section_name": "Pending Submission",
-      "assignee_gid": "usr-102",
-      "assignee_name": "John Keppeler",
-      "due_date": "2026-09-20",
-      "completed": false,
-      "completed_at": null,
-      "created_at": "2026-08-15T10:00:00Z",
-      "modified_at": "2026-09-09T10:00:00Z",
-      "tags": [
-        "urgent",
-        "Q4-priority"
+        "creative-assets",
+        "client-facing"
       ],
       "priority": "high",
       "resource_type": "task",
@@ -1542,22 +579,46 @@
       "parent_gid": null
     },
     {
-      "gid": "task-5036",
-      "name": "Salon loyalty tier restructure proposal",
-      "notes": "Propose new tier structure for Salon Pro loyalty program: Silver, Gold, Platinum, Elite. Define spend thresholds, benefits per tier, and transition rules for existing members. Present to John and Charlotte for sign-off by Sep 30.",
-      "project_gid": "proj-306",
-      "project_name": "Salon Pro Partner Program Relaunch",
-      "section_gid": "sec-451",
-      "section_name": "Strategy & Brief",
-      "assignee_gid": "usr-109",
-      "assignee_name": "Danielle Park",
-      "due_date": "2026-09-30",
+      "gid": "task-p001-005",
+      "name": "Copy \u2013 tagline variants for 'Your Next Obsession'",
+      "notes": "Develop 3\u20135 headline variants riffing on 'Your Next Obsession' for A/B testing across YouTube pre-roll and TikTok. Must work truncated for 6-second cut. Sofia primary; Jonathan to approve.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-002",
+      "section_name": "Creative Development",
+      "assignee_gid": "usr-007",
+      "assignee_name": "Sofia Mendez",
+      "due_date": "2026-10-31",
       "completed": false,
       "completed_at": null,
-      "created_at": "2026-08-01T09:00:00Z",
-      "modified_at": "2026-09-06T11:00:00Z",
+      "created_at": "2026-10-28T10:10:00Z",
+      "modified_at": "2026-10-28T10:10:00Z",
       "tags": [
-        "needs-review"
+        "creative-assets"
+      ],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p001-006",
+      "name": "Art direction \u2013 master visual system for fall slate",
+      "notes": "Build out the master visual system: color temperature, typography treatment, show-art integration rules for the fall slate (Tulsa King S3, Lioness S2, Smile 3). Must work across 9:16 and 16:9 formats.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-002",
+      "section_name": "Creative Development",
+      "assignee_gid": "usr-006",
+      "assignee_name": "Devon Walsh",
+      "due_date": "2026-11-03",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-28T10:12:00Z",
+      "modified_at": "2026-10-28T10:12:00Z",
+      "tags": [
+        "creative-assets"
       ],
       "priority": "medium",
       "resource_type": "task",
@@ -1566,20 +627,44 @@
       "parent_gid": null
     },
     {
-      "gid": "task-5037",
-      "name": "Ingredient INCI list audit for scalp serum",
-      "notes": "Audit full INCI ingredient list for scalp serum formula candidates. Verify compliance with EU Cosmetics Regulation (EC) No 1223/2009, California Prop 65, and Credo Clean Standard. Flag any restricted ingredients for reformulation.",
-      "project_gid": "proj-304",
-      "project_name": "New Product Development — Scalp Serum",
-      "section_gid": "sec-433",
-      "section_name": "Packaging & Regulatory",
-      "assignee_gid": "usr-107",
-      "assignee_name": "Priya Nair",
-      "due_date": "2026-11-15",
+      "gid": "task-p001-007",
+      "name": "Production schedule \u2013 6s / 15s / 30s delivery timeline",
+      "notes": "Bella to build out full production schedule integrating storyboard review, client feedback round, edit, legal review window (mandatory 3 business days), and final delivery by Nov 14 for Nov 18 launch.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-003",
+      "section_name": "Production",
+      "assignee_gid": "usr-002",
+      "assignee_name": "Bella Okafor",
+      "due_date": "2026-11-01",
       "completed": false,
       "completed_at": null,
-      "created_at": "2026-08-15T09:00:00Z",
-      "modified_at": "2026-09-03T10:00:00Z",
+      "created_at": "2026-10-28T10:15:00Z",
+      "modified_at": "2026-10-28T10:15:00Z",
+      "tags": [
+        "client-facing"
+      ],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p001-008",
+      "name": "Add legal review window to project schedule & approval tracker",
+      "notes": "Jonathan requested mandatory 3-business-day legal review before any asset goes live. Bella confirmed this will be built into the schedule. Eli to update the approval tracker template to include legal sign-off gate.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-003",
+      "section_name": "Production",
+      "assignee_gid": "usr-010",
+      "assignee_name": "Eli Chambers",
+      "due_date": "2026-10-30",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-28T11:00:00Z",
+      "modified_at": "2026-10-28T11:00:00Z",
       "tags": [
         "legal-review"
       ],
@@ -1590,48 +675,70 @@
       "parent_gid": null
     },
     {
-      "gid": "task-5038",
-      "name": "BeautyFirst co-op media brief sign-off",
-      "notes": "Get sign-off from Charlotte and John on the BeautyFirst co-op media brief for No. 9 Bond Protector. Brief covers Beauty Insider email, SEO placements, BeautyFirst app push notification, and paid social amplification. Budget: $180,000.",
-      "project_gid": "proj-301",
-      "project_name": "No. 9 Bond Protector Launch — Q4 2026",
-      "section_gid": "sec-403",
-      "section_name": "Review & Approval",
-      "assignee_gid": "usr-101",
-      "assignee_name": "Charlotte Watson",
-      "due_date": "2026-09-18",
+      "gid": "task-p001-009",
+      "name": "Asset specs \u2013 9:16 and 16:9 delivery requirements doc",
+      "notes": "Jonathan requested final assets include both 9:16 and 16:9 aspect ratios. Bella to produce a formal asset spec sheet covering dimensions, file format, audio spec, duration limits, and platform requirements for YouTube, TikTok, CTV, Meta.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-003",
+      "section_name": "Production",
+      "assignee_gid": "usr-002",
+      "assignee_name": "Bella Okafor",
+      "due_date": "2026-10-31",
       "completed": false,
       "completed_at": null,
-      "created_at": "2026-08-20T10:00:00Z",
-      "modified_at": "2026-09-09T11:00:00Z",
+      "created_at": "2026-10-28T11:05:00Z",
+      "modified_at": "2026-10-28T11:05:00Z",
       "tags": [
-        "urgent",
-        "launch-critical",
-        "Q4-priority"
+        "creative-assets",
+        "client-facing"
       ],
-      "priority": "high",
+      "priority": "medium",
       "resource_type": "task",
-      "liked": true,
-      "num_likes": 2,
+      "liked": false,
+      "num_likes": 0,
       "parent_gid": null
     },
     {
-      "gid": "task-5039",
-      "name": "Platform load testing pre-launch",
-      "notes": "Conduct load testing on new e-commerce platform ahead of No. 9 launch traffic spike. Simulate 10,000 concurrent users. Identify and resolve performance bottlenecks. Coordinate with platform vendor (Commercetools) on CDN configuration.",
-      "project_gid": "proj-305",
-      "project_name": "E-commerce Platform Migration",
-      "section_gid": "sec-443",
-      "section_name": "QA & Testing",
-      "assignee_gid": "usr-109",
-      "assignee_name": "Danielle Park",
-      "due_date": "2026-10-25",
+      "gid": "task-p001-010",
+      "name": "Edit suite \u2013 book post-production vendor for final cuts",
+      "notes": "Confirm post-production partner for video editing. Bella to reach out to Blackframe Edit and Whiteboard Studios for availability Nov 3\u201312. Budget cleared by Brenda ($18K production line item).",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-003",
+      "section_name": "Production",
+      "assignee_gid": "usr-002",
+      "assignee_name": "Bella Okafor",
+      "due_date": "2026-11-03",
       "completed": false,
       "completed_at": null,
-      "created_at": "2026-08-25T10:00:00Z",
-      "modified_at": "2026-09-08T14:00:00Z",
+      "created_at": "2026-10-21T09:00:00Z",
+      "modified_at": "2026-10-21T09:00:00Z",
+      "tags": [],
+      "priority": "medium",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p001-011",
+      "name": "Final media plan \u2013 $120K budget (TikTok $10K shifted to YouTube)",
+      "notes": "Brenda proposed initial $120K media budget. Jonathan adjusted allocation: $10K shifted from TikTok to YouTube to leverage YouTube's stronger video completion rates for 15s and 30s cuts. Final split: YouTube $45K, CTV $30K, TikTok $15K, Meta $20K, Pinterest $10K.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-004",
+      "section_name": "Media Planning & Buying",
+      "assignee_gid": "usr-003",
+      "assignee_name": "Brenda Castillo",
+      "due_date": "2026-10-31",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-28T12:00:00Z",
+      "modified_at": "2026-10-28T12:00:00Z",
       "tags": [
-        "launch-critical"
+        "paid-media",
+        "client-facing"
       ],
       "priority": "high",
       "resource_type": "task",
@@ -1640,23 +747,458 @@
       "parent_gid": null
     },
     {
-      "gid": "task-5040",
-      "name": "Supplier contract renegotiation — primary resin supplier",
-      "notes": "Renegotiate annual contract with primary resin supplier for bottle production. Current contract expires Dec 31. Target: 8% cost reduction and minimum 60-day payment terms. Requires GlobalCorp procurement team involvement given new parent company leverage.",
-      "project_gid": "proj-308",
-      "project_name": "Supply Chain Optimization",
-      "section_gid": "sec-473",
-      "section_name": "Vendor Negotiations",
-      "assignee_gid": "usr-110",
-      "assignee_name": "Tom Vasquez",
-      "due_date": "2026-11-30",
+      "gid": "task-p001-012",
+      "name": "Consolidated campaign timeline delivery \u2013 due Thursday",
+      "notes": "Brenda to deliver the consolidated campaign timeline by Thursday Oct 30. Must include: media flight dates, platform go-live schedule, asset delivery deadlines, legal review windows, and client approval checkpoints.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-004",
+      "section_name": "Media Planning & Buying",
+      "assignee_gid": "usr-003",
+      "assignee_name": "Brenda Castillo",
+      "due_date": "2026-10-30",
       "completed": false,
       "completed_at": null,
-      "created_at": "2026-08-20T09:00:00Z",
-      "modified_at": "2026-09-05T11:00:00Z",
+      "created_at": "2026-10-28T12:05:00Z",
+      "modified_at": "2026-10-28T12:05:00Z",
       "tags": [
-        "henkel-integration"
+        "paid-media",
+        "client-facing",
+        "urgent"
       ],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p001-013",
+      "name": "Platform trafficking \u2013 YouTube, TikTok, Meta, CTV setup",
+      "notes": "Tariq to set up campaign trafficking across YouTube Ads, TikTok Ads Manager, Meta Business Manager, and CTV DSP. Targeting parameters per brief: age 25-49, streaming-interest audiences, lookalike from existing P+ subscribers.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-004",
+      "section_name": "Media Planning & Buying",
+      "assignee_gid": "usr-008",
+      "assignee_name": "Tariq Johnson",
+      "due_date": "2026-11-10",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-15T09:00:00Z",
+      "modified_at": "2026-10-15T09:00:00Z",
+      "tags": [
+        "paid-media"
+      ],
+      "priority": "medium",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p001-014",
+      "name": "Legal review \u2013 30s cut (mandatory 3 business days)",
+      "notes": "Route 30s final cut to Paramount+ legal team for mandatory 3-business-day review before any distribution. Legal review window: Nov 11\u201313. Confirm receipt and start of review with Paramount+ legal contact.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-005",
+      "section_name": "Legal & Approvals",
+      "assignee_gid": "usr-010",
+      "assignee_name": "Eli Chambers",
+      "due_date": "2026-11-11",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-28T11:30:00Z",
+      "modified_at": "2026-10-28T11:30:00Z",
+      "tags": [
+        "legal-review",
+        "client-facing"
+      ],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p001-015",
+      "name": "Legal review \u2013 15s and 6s cuts",
+      "notes": "Route 15s and 6s final cuts to legal for concurrent 3-day review alongside 30s. All three must clear legal before any platform goes live Nov 18.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-005",
+      "section_name": "Legal & Approvals",
+      "assignee_gid": "usr-010",
+      "assignee_name": "Eli Chambers",
+      "due_date": "2026-11-11",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-28T11:35:00Z",
+      "modified_at": "2026-10-28T11:35:00Z",
+      "tags": [
+        "legal-review"
+      ],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p001-016",
+      "name": "Client final approval \u2013 all assets sign-off",
+      "notes": "Final client sign-off required from Paramount+ brand team before trafficking. Must have written approval (email or Asana approval) for each cut and each format.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-005",
+      "section_name": "Legal & Approvals",
+      "assignee_gid": "usr-005",
+      "assignee_name": "Priya Nair",
+      "due_date": "2026-11-14",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-28T11:40:00Z",
+      "modified_at": "2026-10-28T11:40:00Z",
+      "tags": [
+        "client-facing"
+      ],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p001-017",
+      "name": "Launch day go-live checklist \u2013 November 18",
+      "notes": "Eli to own launch checklist: confirm all trafficking is live by 9am ET, verify ad units are serving on each platform, share launch confirmation with Priya and Paramount+ client contact.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-006",
+      "section_name": "Launch & Go-Live",
+      "assignee_gid": "usr-010",
+      "assignee_name": "Eli Chambers",
+      "due_date": "2026-11-18",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-20T09:00:00Z",
+      "modified_at": "2026-10-20T09:00:00Z",
+      "tags": [
+        "client-facing",
+        "urgent"
+      ],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p001-018",
+      "name": "Day-1 performance pulse \u2013 impressions & completion rate snapshot",
+      "notes": "Tariq to pull a same-day snapshot by 5pm ET on Nov 18: impressions served, video completion rates by platform/cut length, any trafficking issues. Share in #ext-paramount Slack channel.",
+      "project_gid": "proj-001",
+      "project_name": "Paramount+ \u2013 Fall Streaming Campaign",
+      "section_gid": "sec-006",
+      "section_name": "Launch & Go-Live",
+      "assignee_gid": "usr-008",
+      "assignee_name": "Tariq Johnson",
+      "due_date": "2026-11-18",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-20T09:05:00Z",
+      "modified_at": "2026-10-20T09:05:00Z",
+      "tags": [
+        "paid-media"
+      ],
+      "priority": "medium",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p002-001",
+      "name": "October content calendar \u2013 final post schedule",
+      "notes": "12 posts for October covering: NFL on CBS, Tulsa King midseason, Smile 3 home premiere, Yellowstone anniversary rewatch campaign. All copy and creative approved. Schedule loaded into Sprout Social.",
+      "project_gid": "proj-002",
+      "project_name": "Paramount+ \u2013 Always-On Social Retainer",
+      "section_gid": "sec-011",
+      "section_name": "October Content Calendar",
+      "assignee_gid": "usr-007",
+      "assignee_name": "Sofia Mendez",
+      "due_date": "2026-10-31",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-05T09:00:00Z",
+      "modified_at": "2026-10-24T14:00:00Z",
+      "tags": [
+        "retainer",
+        "client-facing"
+      ],
+      "priority": "medium",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p002-002",
+      "name": "November content calendar \u2013 draft for client review",
+      "notes": "Draft November calendar aligned to fall campaign launch window and holiday streaming push. Key moments: campaign launch Nov 18, Thanksgiving weekend programming, Cyber Monday subscriber offer.",
+      "project_gid": "proj-002",
+      "project_name": "Paramount+ \u2013 Always-On Social Retainer",
+      "section_gid": "sec-012",
+      "section_name": "November Content Calendar",
+      "assignee_gid": "usr-007",
+      "assignee_name": "Sofia Mendez",
+      "due_date": "2026-11-05",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-20T09:00:00Z",
+      "modified_at": "2026-10-20T09:00:00Z",
+      "tags": [
+        "retainer",
+        "client-facing"
+      ],
+      "priority": "medium",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p002-003",
+      "name": "September performance report \u2013 deliver to Paramount+",
+      "notes": "Deliver monthly paid+organic performance report. September highlights: +22% reach YoY, top-performing post: Tulsa King S3 trailer clip (4.2M impressions). Include benchmark vs streaming competitor avg.",
+      "project_gid": "proj-002",
+      "project_name": "Paramount+ \u2013 Always-On Social Retainer",
+      "section_gid": "sec-013",
+      "section_name": "Reporting",
+      "assignee_gid": "usr-009",
+      "assignee_name": "Hannah Park",
+      "due_date": "2026-10-15",
+      "completed": true,
+      "completed_at": "2026-10-14T16:00:00Z",
+      "created_at": "2026-10-01T09:00:00Z",
+      "modified_at": "2026-10-14T16:00:00Z",
+      "tags": [
+        "retainer",
+        "client-facing"
+      ],
+      "priority": "medium",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p003-001",
+      "name": "Campaign positioning \u2013 genre-breaking action hero brief",
+      "notes": "Hannah and Marcus to co-develop campaign positioning for Rift Protocol. Lead angle: 'break every genre'. Target: core gamers 18-35 and lapsed players. Differentiate from competitor FPS titles in Q1 window.",
+      "project_gid": "proj-003",
+      "project_name": "NOVA Studios \u2013 Rift Protocol Launch Campaign",
+      "section_gid": "sec-021",
+      "section_name": "Campaign Strategy",
+      "assignee_gid": "usr-004",
+      "assignee_name": "Marcus Lin",
+      "due_date": "2026-11-10",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-01T09:00:00Z",
+      "modified_at": "2026-10-15T14:00:00Z",
+      "tags": [
+        "client-facing"
+      ],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p003-002",
+      "name": "Launch trailer concepting \u2013 90s cinematic cut",
+      "notes": "Devon to concept a 90-second cinematic launch trailer targeting YouTube and Twitch pre-roll. Must showcase open-world scale, hero character, and multiplayer. NOVA to provide game capture footage by Nov 15.",
+      "project_gid": "proj-003",
+      "project_name": "NOVA Studios \u2013 Rift Protocol Launch Campaign",
+      "section_gid": "sec-022",
+      "section_name": "Trailer & Video",
+      "assignee_gid": "usr-006",
+      "assignee_name": "Devon Walsh",
+      "due_date": "2026-11-20",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-10T09:00:00Z",
+      "modified_at": "2026-10-10T09:00:00Z",
+      "tags": [
+        "creative-assets"
+      ],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p003-003",
+      "name": "Influencer roster \u2013 tier-1 and tier-2 gaming creators",
+      "notes": "Identify and brief 3 tier-1 (1M+ subs) and 8 tier-2 (100K-1M subs) gaming influencers on YouTube and Twitch. Focus on FPS and open-world communities. Outreach brief due Nov 5.",
+      "project_gid": "proj-003",
+      "project_name": "NOVA Studios \u2013 Rift Protocol Launch Campaign",
+      "section_gid": "sec-023",
+      "section_name": "Influencer & Esports",
+      "assignee_gid": "usr-004",
+      "assignee_name": "Marcus Lin",
+      "due_date": "2026-11-05",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-12T09:00:00Z",
+      "modified_at": "2026-10-12T09:00:00Z",
+      "tags": [],
+      "priority": "medium",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p004-001",
+      "name": "Holiday campaign creative brief \u2013 gift-giving hero content",
+      "notes": "Devon and Sofia to develop hero creative for Q4 gifting season. Anchor around 'Move into the New Year' theme. Key deliverables: hero video 30s, static social tiles, email header. Brand review Nov 12.",
+      "project_gid": "proj-004",
+      "project_name": "Solstice Athletic \u2013 Q4 Holiday Performance Campaign",
+      "section_gid": "sec-031",
+      "section_name": "Creative",
+      "assignee_gid": "usr-006",
+      "assignee_name": "Devon Walsh",
+      "due_date": "2026-11-12",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-01T09:00:00Z",
+      "modified_at": "2026-10-15T09:00:00Z",
+      "tags": [
+        "creative-assets",
+        "client-facing"
+      ],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p004-002",
+      "name": "Meta & TikTok paid social plan \u2013 $2.1M media budget",
+      "notes": "Tariq to build phased paid social plan: Black Friday push (Nov 27-Dec 2), Cyber Week (Dec 2-9), Last-minute gifting (Dec 16-23). Platform split TBD; strong completion rate on TikTok expected for athletic apparel.",
+      "project_gid": "proj-004",
+      "project_name": "Solstice Athletic \u2013 Q4 Holiday Performance Campaign",
+      "section_gid": "sec-032",
+      "section_name": "Paid Social",
+      "assignee_gid": "usr-008",
+      "assignee_name": "Tariq Johnson",
+      "due_date": "2026-11-08",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-05T09:00:00Z",
+      "modified_at": "2026-10-05T09:00:00Z",
+      "tags": [
+        "paid-media",
+        "q4-priority"
+      ],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p005-001",
+      "name": "In-stadium signage \u2013 8 NFL stadium placements confirmed",
+      "notes": "Confirmed in-stadium branding for 8 NFL stadiums through Week 18. Logo lockup, placement specs, and production files delivered to each stadium ops team. Next activation: playoff games contingent on team performance.",
+      "project_gid": "proj-005",
+      "project_name": "Apex Energy \u2013 NFL Season Sponsorship Activation",
+      "section_gid": "sec-041",
+      "section_name": "In-Stadium & Broadcast",
+      "assignee_gid": "usr-010",
+      "assignee_name": "Eli Chambers",
+      "due_date": "2026-11-01",
+      "completed": true,
+      "completed_at": "2026-10-18T15:00:00Z",
+      "created_at": "2026-08-01T09:00:00Z",
+      "modified_at": "2026-10-18T15:00:00Z",
+      "tags": [],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p005-002",
+      "name": "Social content series \u2013 'Apex Moment of the Week' NFL",
+      "notes": "Weekly social content series: each Wednesday, post an 'Apex Moment of the Week' clip co-branded with the NFL play highlight. Sofia on copy, Devon on graphics. Runs through Week 18.",
+      "project_gid": "proj-005",
+      "project_name": "Apex Energy \u2013 NFL Season Sponsorship Activation",
+      "section_gid": "sec-042",
+      "section_name": "Digital & Social",
+      "assignee_gid": "usr-007",
+      "assignee_name": "Sofia Mendez",
+      "due_date": "2027-01-08",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-09-01T09:00:00Z",
+      "modified_at": "2026-10-22T09:00:00Z",
+      "tags": [
+        "retainer"
+      ],
+      "priority": "medium",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p006-001",
+      "name": "RFP response \u2013 streaming platform (pitch deck due Nov 7)",
+      "notes": "Pitch for a major streaming platform's 2027 AOR. Agency credentials, campaign case studies (Paramount+ summer win), and proposed team structure. Jonathan leading creative vision; Hannah on strategy.",
+      "project_gid": "proj-006",
+      "project_name": "New Business \u2013 Q4 RFP Pipeline",
+      "section_gid": "sec-051",
+      "section_name": "Active Pitches",
+      "assignee_gid": "usr-001",
+      "assignee_name": "Jonathan Reyes",
+      "due_date": "2026-11-07",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-15T09:00:00Z",
+      "modified_at": "2026-10-22T09:00:00Z",
+      "tags": [
+        "q4-priority"
+      ],
+      "priority": "high",
+      "resource_type": "task",
+      "liked": false,
+      "num_likes": 0,
+      "parent_gid": null
+    },
+    {
+      "gid": "task-p006-002",
+      "name": "RFP response \u2013 QSR brand social/digital AOR",
+      "notes": "Fast-casual restaurant brand seeking social and digital AOR. Budget est. $4M annual. Brenda leading media strategy section; Tariq on performance marketing capabilities. Due Nov 14.",
+      "project_gid": "proj-006",
+      "project_name": "New Business \u2013 Q4 RFP Pipeline",
+      "section_gid": "sec-051",
+      "section_name": "Active Pitches",
+      "assignee_gid": "usr-003",
+      "assignee_name": "Brenda Castillo",
+      "due_date": "2026-11-14",
+      "completed": false,
+      "completed_at": null,
+      "created_at": "2026-10-18T09:00:00Z",
+      "modified_at": "2026-10-18T09:00:00Z",
+      "tags": [],
       "priority": "medium",
       "resource_type": "task",
       "liked": false,
@@ -1666,506 +1208,361 @@
   ],
   "subtasks": [
     {
-      "gid": "sub-6001",
-      "name": "Draft claims list for legal review",
-      "parent_gid": "task-5001",
-      "parent_name": "Finalize product claims with legal",
-      "project_gid": "proj-301",
-      "assignee_name": "Sofia Delgado",
-      "due_date": "2026-09-12",
-      "completed": true,
-      "created_at": "2026-07-20T10:30:00Z"
-    },
-    {
-      "gid": "sub-6002",
-      "name": "Schedule legal review call",
-      "parent_gid": "task-5001",
-      "parent_name": "Finalize product claims with legal",
-      "project_gid": "proj-301",
-      "assignee_name": "Sofia Delgado",
-      "due_date": "2026-09-15",
+      "gid": "sub-001",
+      "parent_gid": "task-p001-004",
+      "parent_name": "Storyboards \u2013 6s, 15s, 30s versions (all three cuts)",
+      "name": "6s cut storyboard \u2013 hook-only format",
+      "assignee_name": "Devon Walsh",
+      "due_date": "2026-10-31",
       "completed": false,
-      "created_at": "2026-07-20T10:31:00Z"
+      "notes": "Single-frame hook. Must land concept in under 6 seconds. No supers. Just visual and end card."
     },
     {
-      "gid": "sub-6003",
-      "name": "Confirm studio booking for Sep 22",
-      "parent_gid": "task-5002",
-      "parent_name": "Shoot hero product imagery",
-      "project_gid": "proj-301",
-      "assignee_name": "Marcus Reid",
-      "due_date": "2026-09-14",
-      "completed": true,
-      "created_at": "2026-07-22T09:30:00Z"
-    },
-    {
-      "gid": "sub-6004",
-      "name": "Write photographer creative brief",
-      "parent_gid": "task-5002",
-      "parent_name": "Shoot hero product imagery",
-      "project_gid": "proj-301",
-      "assignee_name": "Marcus Reid",
-      "due_date": "2026-09-18",
+      "gid": "sub-002",
+      "parent_gid": "task-p001-004",
+      "parent_name": "Storyboards \u2013 6s, 15s, 30s versions (all three cuts)",
+      "name": "15s cut storyboard \u2013 setup + hook + CTA",
+      "assignee_name": "Devon Walsh",
+      "due_date": "2026-10-31",
       "completed": false,
-      "created_at": "2026-07-22T09:31:00Z"
+      "notes": "Setup \u2192 genre montage \u2192 'Your Next Obsession' end card with P+ logo."
     },
     {
-      "gid": "sub-6005",
-      "name": "Map BondCare NetSuite modules to GlobalCorp EnterpriseOne",
-      "parent_gid": "task-5006",
-      "parent_name": "Align on shared ERP systems",
-      "project_gid": "proj-302",
-      "assignee_name": "Tom Vasquez",
-      "due_date": "2026-09-25",
+      "gid": "sub-003",
+      "parent_gid": "task-p001-004",
+      "parent_name": "Storyboards \u2013 6s, 15s, 30s versions (all three cuts)",
+      "name": "30s cut storyboard \u2013 full narrative arc",
+      "assignee_name": "Devon Walsh",
+      "due_date": "2026-10-31",
       "completed": false,
-      "created_at": "2026-06-10T09:30:00Z"
+      "notes": "Full emotional arc: binge moment \u2192 obsession spiral \u2192 payoff. Must work in both 9:16 and 16:9."
     },
     {
-      "gid": "sub-6006",
-      "name": "Identify 3 candidate ERP integration vendors",
-      "parent_gid": "task-5006",
-      "parent_name": "Align on shared ERP systems",
-      "project_gid": "proj-302",
-      "assignee_name": "Priya Nair",
-      "due_date": "2026-10-01",
+      "gid": "sub-004",
+      "parent_gid": "task-p001-011",
+      "parent_name": "Final media plan \u2013 $120K budget (TikTok $10K shifted to YouTube)",
+      "name": "YouTube \u2013 $45K flight plan (15s and 30s pre-roll)",
+      "assignee_name": "Brenda Castillo",
+      "due_date": "2026-10-31",
       "completed": false,
-      "created_at": "2026-06-10T09:31:00Z"
+      "notes": "YouTube gets $45K. Skippable pre-roll (30s) + non-skip bumper (6s). Targeting: streaming interest, ages 25-49."
     },
     {
-      "gid": "sub-6007",
-      "name": "Source holiday gift set boxes — vendor quotes",
-      "parent_gid": "task-5010",
-      "parent_name": "Holiday gift set packaging design",
-      "project_gid": "proj-303",
-      "assignee_name": "Marcus Reid",
-      "due_date": "2026-09-25",
+      "gid": "sub-005",
+      "parent_gid": "task-p001-011",
+      "parent_name": "Final media plan \u2013 $120K budget (TikTok $10K shifted to YouTube)",
+      "name": "TikTok \u2013 $15K (adjusted down from $25K)",
+      "assignee_name": "Tariq Johnson",
+      "due_date": "2026-10-31",
       "completed": false,
-      "created_at": "2026-07-10T10:30:00Z"
+      "notes": "$10K moved to YouTube. TikTok allocation now $15K. In-Feed 9:16 only, 6s and 15s cuts."
     },
     {
-      "gid": "sub-6008",
-      "name": "Confirm holiday set SKU lineup with Trisha",
-      "parent_gid": "task-5010",
-      "parent_name": "Holiday gift set packaging design",
-      "project_gid": "proj-303",
-      "assignee_name": "Charlotte Watson",
-      "due_date": "2026-09-15",
-      "completed": true,
-      "created_at": "2026-07-10T10:31:00Z"
-    },
-    {
-      "gid": "sub-6009",
-      "name": "Export customer data from CommercePro",
-      "parent_gid": "task-5018",
-      "parent_name": "CommercePro to new platform data migration",
-      "project_gid": "proj-305",
-      "assignee_name": "Ryan Chen",
-      "due_date": "2026-09-20",
+      "gid": "sub-006",
+      "parent_gid": "task-p001-011",
+      "parent_name": "Final media plan \u2013 $120K budget (TikTok $10K shifted to YouTube)",
+      "name": "CTV \u2013 $30K programmatic (Magnite / The Trade Desk)",
+      "assignee_name": "Brenda Castillo",
+      "due_date": "2026-10-31",
       "completed": false,
-      "created_at": "2026-06-20T09:30:00Z"
+      "notes": "CTV via programmatic. 30s non-skippable. Household targeting: streaming households, cord-cutters."
     },
     {
-      "gid": "sub-6010",
-      "name": "Validate order history import on staging",
-      "parent_gid": "task-5018",
-      "parent_name": "CommercePro to new platform data migration",
-      "project_gid": "proj-305",
-      "assignee_name": "Danielle Park",
-      "due_date": "2026-09-28",
+      "gid": "sub-007",
+      "parent_gid": "task-p001-008",
+      "parent_name": "Add legal review window to project schedule & approval tracker",
+      "name": "Update approval tracker \u2013 add legal sign-off gate",
+      "assignee_name": "Eli Chambers",
+      "due_date": "2026-10-30",
       "completed": false,
-      "created_at": "2026-06-20T09:31:00Z"
+      "notes": "Add mandatory 'Legal Cleared' checkbox before any final asset can move to trafficking. Required for all three cuts."
     },
     {
-      "gid": "sub-6011",
-      "name": "Pull Nielsen data for HealthMart submission",
-      "parent_gid": "task-5024",
-      "parent_name": "HealthMart fall planogram submission",
-      "project_gid": "proj-307",
-      "assignee_name": "John Keppeler",
-      "due_date": "2026-09-16",
-      "completed": true,
-      "created_at": "2026-08-05T10:30:00Z"
-    },
-    {
-      "gid": "sub-6012",
-      "name": "Build HealthMart planogram file in JDA",
-      "parent_gid": "task-5024",
-      "parent_name": "HealthMart fall planogram submission",
-      "project_gid": "proj-307",
-      "assignee_name": "Jake Moreau",
-      "due_date": "2026-09-18",
+      "gid": "sub-008",
+      "parent_gid": "task-p003-001",
+      "parent_name": "Campaign positioning \u2013 genre-breaking action hero brief",
+      "name": "Competitive landscape \u2013 FPS titles Q1 2027 window",
+      "assignee_name": "Hannah Park",
+      "due_date": "2026-11-08",
       "completed": false,
-      "created_at": "2026-08-05T10:31:00Z"
+      "notes": "Map competitive FPS and action titles releasing Q1 2027. Identify share-of-voice opportunity and positioning white space for Rift Protocol."
     },
     {
-      "gid": "sub-6013",
-      "name": "Identify top 500 salon accounts by LTM revenue",
-      "parent_gid": "task-5023",
-      "parent_name": "Outreach to top 500 salon accounts",
-      "project_gid": "proj-306",
-      "assignee_name": "Jake Moreau",
-      "due_date": "2026-09-22",
+      "gid": "sub-009",
+      "parent_gid": "task-p004-001",
+      "parent_name": "Holiday campaign creative brief \u2013 gift-giving hero content",
+      "name": "Hero video \u2013 30s script draft",
+      "assignee_name": "Sofia Mendez",
+      "due_date": "2026-11-05",
       "completed": false,
-      "created_at": "2026-07-25T09:30:00Z"
+      "notes": "Script for 30s hero video. Tone: aspirational, energetic, gift-giving. VO and on-screen text."
     },
     {
-      "gid": "sub-6014",
-      "name": "Draft accelerated stability test protocol",
-      "parent_gid": "task-5015",
-      "parent_name": "Formula stability testing",
-      "project_gid": "proj-304",
-      "assignee_name": "Priya Nair",
-      "due_date": "2026-09-25",
+      "gid": "sub-010",
+      "parent_gid": "task-p001-007",
+      "parent_name": "Production schedule \u2013 6s / 15s / 30s delivery timeline",
+      "name": "Map storyboard \u2192 edit \u2192 legal \u2192 delivery milestones",
+      "assignee_name": "Bella Okafor",
+      "due_date": "2026-11-01",
       "completed": false,
-      "created_at": "2026-06-15T10:30:00Z"
-    },
-    {
-      "gid": "sub-6015",
-      "name": "Request Radial audit report — last 6 months",
-      "parent_gid": "task-5028",
-      "parent_name": "Audit 3PL fulfillment accuracy",
-      "project_gid": "proj-308",
-      "assignee_name": "Priya Nair",
-      "due_date": "2026-09-18",
-      "completed": true,
-      "created_at": "2026-07-05T10:30:00Z"
+      "notes": "Key gate dates: storyboards Oct 31, client feedback Nov 3, final edit Nov 10, legal submit Nov 11, legal clear Nov 14, final delivery Nov 14, launch Nov 18."
     }
   ],
   "stories": [
     {
-      "gid": "story-7001",
+      "gid": "story-001",
       "resource_type": "story",
       "type": "comment",
-      "text": "Just got off the phone with the legal team — they want us to remove 'repairs 100% of breakage' from the claims list. Flagging for Sofia to address before the Sep 15 call.",
-      "task_gid": "task-5001",
-      "task_name": "Finalize product claims with legal",
-      "created_at": "2026-09-04T14:22:00Z",
-      "created_by_gid": "usr-104",
-      "created_by_name": "Marcus Reid",
+      "task_gid": "task-p001-003",
+      "task_name": "Concept A selection confirmed \u2013 kick off 'Your Next Obsession' creative",
+      "text": "Jonathan confirmed in #ext-paramount today: Concept A is locked. Acquisition-focused angle is the right call given P+'s Q4 subscriber targets. Bella is officially kicked off on production.",
+      "created_at": "2026-10-28T10:00:00Z",
+      "created_by_gid": "usr-001",
+      "created_by_name": "Jonathan Reyes",
       "is_pinned": true
     },
     {
-      "gid": "story-7002",
+      "gid": "story-002",
       "resource_type": "story",
       "type": "comment",
-      "text": "Updated the claims list based on Marcus's note. Revised version attached. Key change: replaced the efficacy claim with 'visibly reduces breakage in 1 use' — waiting on legal sign-off now.",
-      "task_gid": "task-5001",
-      "task_name": "Finalize product claims with legal",
-      "created_at": "2026-09-05T09:10:00Z",
-      "created_by_gid": "usr-105",
-      "created_by_name": "Sofia Delgado",
+      "task_gid": "task-p001-011",
+      "task_name": "Final media plan \u2013 $120K budget (TikTok $10K shifted to YouTube)",
+      "text": "Jonathan adjusted the allocation in today's channel discussion \u2014 $10K shifted from TikTok to YouTube to take advantage of stronger completion rates on 15s and 30s pre-roll. Brenda updating the plan now.",
+      "created_at": "2026-10-28T12:10:00Z",
+      "created_by_gid": "usr-003",
+      "created_by_name": "Brenda Castillo",
       "is_pinned": false
     },
     {
-      "gid": "story-7003",
+      "gid": "story-003",
       "resource_type": "story",
       "type": "comment",
-      "text": "Studio is confirmed for Sep 22 — 8am-6pm at Milk Studios, NYC. I've shared the shot list with the photographer. Please review and flag any missing angles by EOD Sep 17.",
-      "task_gid": "task-5002",
-      "task_name": "Shoot hero product imagery",
-      "created_at": "2026-09-07T11:30:00Z",
-      "created_by_gid": "usr-104",
-      "created_by_name": "Marcus Reid",
+      "task_gid": "task-p001-011",
+      "task_name": "Final media plan \u2013 $120K budget (TikTok $10K shifted to YouTube)",
+      "text": "Final allocation confirmed: YouTube $45K, CTV $30K, Meta $20K, TikTok $15K, Pinterest $10K. Consolidated timeline will be in everyone's hands by Thursday.",
+      "created_at": "2026-10-28T14:00:00Z",
+      "created_by_gid": "usr-003",
+      "created_by_name": "Brenda Castillo",
       "is_pinned": true
     },
     {
-      "gid": "story-7004",
+      "gid": "story-004",
       "resource_type": "story",
       "type": "comment",
-      "text": "GlobalCorp IT team pushed back the ERP workshop to Oct 3. Their EnterpriseOne migration team is tied up in a Germany rollout until end of September. Tom — can we use this time to finish the NetSuite module mapping?",
-      "task_gid": "task-5006",
-      "task_name": "Align on shared ERP systems",
-      "created_at": "2026-09-02T10:15:00Z",
-      "created_by_gid": "usr-107",
+      "task_gid": "task-p001-008",
+      "task_name": "Add legal review window to project schedule & approval tracker",
+      "text": "Bella confirmed that the 3-business-day legal review window and both delivery formats (9:16 + 16:9) are being integrated into the full project schedule and approval tracker.",
+      "created_at": "2026-10-28T11:10:00Z",
+      "created_by_gid": "usr-002",
+      "created_by_name": "Bella Okafor",
+      "is_pinned": false
+    },
+    {
+      "gid": "story-005",
+      "resource_type": "story",
+      "type": "comment",
+      "task_gid": "task-p001-004",
+      "task_name": "Storyboards \u2013 6s, 15s, 30s versions (all three cuts)",
+      "text": "Jonathan flagged that all final assets must deliver in both 9:16 (social/TikTok) and 16:9 (YouTube/CTV). Devon is building both orientations into the storyboard treatment from the start.",
+      "created_at": "2026-10-28T10:20:00Z",
+      "created_by_gid": "usr-001",
+      "created_by_name": "Jonathan Reyes",
+      "is_pinned": false
+    },
+    {
+      "gid": "story-006",
+      "resource_type": "story",
+      "type": "comment",
+      "task_gid": "task-p001-002",
+      "task_name": "Audience insights & competitive landscape report",
+      "text": "Report delivered and shared with Paramount+ team. Key finding: cord-cutters 35-44 are the highest-intent segment for acquisition this fall \u2014 over-indexing on crime drama and reality. Informing our targeting strategy.",
+      "created_at": "2026-10-13T17:45:00Z",
+      "created_by_gid": "usr-009",
+      "created_by_name": "Hannah Park",
+      "is_pinned": false
+    },
+    {
+      "gid": "story-007",
+      "resource_type": "story",
+      "type": "comment",
+      "task_gid": "task-p002-003",
+      "task_name": "September performance report \u2013 deliver to Paramount+",
+      "text": "Report delivered Oct 14. Paramount+ was pleased with the reach growth (+22% YoY). They asked us to add a subscriber conversion attribution section for October's report.",
+      "created_at": "2026-10-14T16:30:00Z",
+      "created_by_gid": "usr-009",
+      "created_by_name": "Hannah Park",
+      "is_pinned": false
+    },
+    {
+      "gid": "story-008",
+      "resource_type": "story",
+      "type": "comment",
+      "task_gid": "task-p003-001",
+      "task_name": "Campaign positioning \u2013 genre-breaking action hero brief",
+      "text": "Aligning with NOVA on 'break every genre' territory. They love it but want to make sure we don't lean too hard into cynical gamer humor \u2014 they want broad reach, not just core gamers.",
+      "created_at": "2026-10-20T15:00:00Z",
+      "created_by_gid": "usr-004",
+      "created_by_name": "Marcus Lin",
+      "is_pinned": false
+    },
+    {
+      "gid": "story-009",
+      "resource_type": "story",
+      "type": "comment",
+      "task_gid": "task-p001-012",
+      "task_name": "Consolidated campaign timeline delivery \u2013 due Thursday",
+      "text": "This is the critical-path deliverable for the week. If the timeline slips, it puts legal review at risk. Tagging as urgent.",
+      "created_at": "2026-10-28T12:30:00Z",
+      "created_by_gid": "usr-010",
+      "created_by_name": "Eli Chambers",
+      "is_pinned": false
+    },
+    {
+      "gid": "story-010",
+      "resource_type": "story",
+      "type": "comment",
+      "task_gid": "task-p006-001",
+      "task_name": "RFP response \u2013 streaming platform (pitch deck due Nov 7)",
+      "text": "We're leading with the Paramount+ Summer Movie Month case study \u2014 14% over subscriber target is a strong anchor. Jonathan wants a dedicated slide on the 'Your Next Obsession' concept as proof of acquisition creative capability.",
+      "created_at": "2026-10-22T11:00:00Z",
+      "created_by_gid": "usr-005",
       "created_by_name": "Priya Nair",
-      "is_pinned": false
-    },
-    {
-      "gid": "story-7005",
-      "resource_type": "story",
-      "type": "comment",
-      "text": "Good call with GlobalCorp legal today. They've confirmed we can keep the BondCare name and brand identity fully independent — no co-branding required on consumer packaging. This is a win. Charlotte, I'll send you the meeting notes.",
-      "task_gid": "task-5008",
-      "task_name": "Brand guidelines sync with GlobalCorp team",
-      "created_at": "2026-09-03T17:00:00Z",
-      "created_by_gid": "usr-102",
-      "created_by_name": "John Keppeler",
-      "is_pinned": true
-    },
-    {
-      "gid": "story-7006",
-      "resource_type": "story",
-      "type": "comment",
-      "text": "Holiday packaging concepts from the agency are in! Three concepts shared in the linked Figma file. Concept B ('Luxe Gold') is my favorite — strong shelf presence. Let's review as a team by end of week.",
-      "task_gid": "task-5010",
-      "task_name": "Holiday gift set packaging design",
-      "created_at": "2026-09-06T14:00:00Z",
-      "created_by_gid": "usr-104",
-      "created_by_name": "Marcus Reid",
-      "is_pinned": true
-    },
-    {
-      "gid": "story-7007",
-      "resource_type": "story",
-      "type": "comment",
-      "text": "Charlotte, can you confirm the holiday campaign theme before I write the email briefs? I don't want to start the Klaviyo builds until we have the creative direction locked.",
-      "task_gid": "task-5011",
-      "task_name": "Black Friday email sequence",
-      "created_at": "2026-09-04T09:45:00Z",
-      "created_by_gid": "usr-105",
-      "created_by_name": "Sofia Delgado",
-      "is_pinned": false
-    },
-    {
-      "gid": "story-7008",
-      "resource_type": "story",
-      "type": "comment",
-      "text": "Theme confirmed: 'The Art of Bond' — minimal, luxe aesthetic with copper/gold accents. Sofia, you're clear to start the email sequence. Creative assets from Marcus will be ready Oct 1.",
-      "task_gid": "task-5011",
-      "task_name": "Black Friday email sequence",
-      "created_at": "2026-09-05T11:00:00Z",
-      "created_by_gid": "usr-101",
-      "created_by_name": "Charlotte Watson",
-      "is_pinned": true
-    },
-    {
-      "gid": "story-7009",
-      "resource_type": "story",
-      "type": "comment",
-      "text": "Consumer research synthesis deck is looking strong. Key finding: 73% of respondents identified 'visible scalp flakiness' as their top concern — much higher than we expected. This validates our niacinamide + salicylic acid formula direction.",
-      "task_gid": "task-5014",
-      "task_name": "Consumer research synthesis",
-      "created_at": "2026-09-01T15:00:00Z",
-      "created_by_gid": "usr-103",
-      "created_by_name": "Trisha Fox",
-      "is_pinned": false
-    },
-    {
-      "gid": "story-7010",
-      "resource_type": "story",
-      "type": "comment",
-      "text": "Data migration is blocked. CommercePro API rate limits are preventing us from extracting the full order history at the speed we need. Escalating to CommercePro enterprise support today. Ryan, let me know if you want me to loop in Commercetools too.",
-      "task_gid": "task-5018",
-      "task_name": "CommercePro to new platform data migration",
-      "created_at": "2026-09-07T10:30:00Z",
-      "created_by_gid": "usr-109",
-      "created_by_name": "Danielle Park",
-      "is_pinned": true
-    },
-    {
-      "gid": "story-7011",
-      "resource_type": "story",
-      "type": "comment",
-      "text": "Good news: CommercePro enterprise bumped our rate limit to 20 calls/sec. We should be able to complete the order history export by Sep 20. Updating the subtask accordingly.",
-      "task_gid": "task-5018",
-      "task_name": "CommercePro to new platform data migration",
-      "created_at": "2026-09-09T08:00:00Z",
-      "created_by_gid": "usr-106",
-      "created_by_name": "Ryan Chen",
-      "is_pinned": false
-    },
-    {
-      "gid": "story-7012",
-      "resource_type": "story",
-      "type": "comment",
-      "text": "GlowCo Q4 promotional calendar submitted and confirmed! We're locked in for 21 Days of Beauty (Oct 12-31), Black Friday endcap, and a holiday gift guide feature. Great outcome — one of our best GlowCo agreements to date.",
-      "task_gid": "task-5026",
-      "task_name": "GlowCo Q4 promotional calendar",
-      "created_at": "2026-09-09T16:30:00Z",
-      "created_by_gid": "usr-102",
-      "created_by_name": "John Keppeler",
-      "is_pinned": true
-    },
-    {
-      "gid": "story-7013",
-      "resource_type": "story",
-      "type": "comment",
-      "text": "Radial audit report received. Overall fulfillment accuracy at 97.2% — below our 99.5% target. Top error categories: wrong unit count (42% of errors), damaged packaging at pick (31%), wrong variant selected (27%). Preparing corrective action plan.",
-      "task_gid": "task-5028",
-      "task_name": "Audit 3PL fulfillment accuracy",
-      "created_at": "2026-09-08T14:00:00Z",
-      "created_by_gid": "usr-107",
-      "created_by_name": "Priya Nair",
-      "is_pinned": false
-    },
-    {
-      "gid": "story-7014",
-      "resource_type": "story",
-      "type": "comment",
-      "text": "Charlotte, I need your sign-off on the BeautyFirst co-op media brief this week. The $180K commitment needs to be approved before BeautyFirst's media planning deadline on Sep 19. Can we set up a 30-min review?",
-      "task_gid": "task-5038",
-      "task_name": "BeautyFirst co-op media brief sign-off",
-      "created_at": "2026-09-08T11:00:00Z",
-      "created_by_gid": "usr-106",
-      "created_by_name": "Ryan Chen",
-      "is_pinned": true
-    },
-    {
-      "gid": "story-7015",
-      "resource_type": "story",
-      "type": "comment",
-      "text": "Load test results are in — platform handled 8,500 concurrent users before response times degraded. We need to optimize the product listing page queries before the No. 9 launch. Looping in Commercetools solutions architect for a call next week.",
-      "task_gid": "task-5039",
-      "task_name": "Platform load testing pre-launch",
-      "created_at": "2026-09-09T13:00:00Z",
-      "created_by_gid": "usr-109",
-      "created_by_name": "Danielle Park",
       "is_pinned": false
     }
   ],
   "tags": [
     {
-      "gid": "tag-8001",
+      "gid": "tag-01",
       "name": "urgent",
-      "color": "dark-red",
       "workspace_gid": "ws-1001"
     },
     {
-      "gid": "tag-8002",
-      "name": "blocked",
-      "color": "dark-orange",
+      "gid": "tag-02",
+      "name": "client-facing",
       "workspace_gid": "ws-1001"
     },
     {
-      "gid": "tag-8003",
-      "name": "needs-review",
-      "color": "dark-yellow",
-      "workspace_gid": "ws-1001"
-    },
-    {
-      "gid": "tag-8004",
-      "name": "Q4-priority",
-      "color": "dark-green",
-      "workspace_gid": "ws-1001"
-    },
-    {
-      "gid": "tag-8005",
-      "name": "henkel-integration",
-      "color": "dark-blue",
-      "workspace_gid": "ws-1001"
-    },
-    {
-      "gid": "tag-8006",
-      "name": "launch-critical",
-      "color": "dark-pink",
-      "workspace_gid": "ws-1001"
-    },
-    {
-      "gid": "tag-8007",
+      "gid": "tag-03",
       "name": "legal-review",
-      "color": "dark-purple",
       "workspace_gid": "ws-1001"
     },
     {
-      "gid": "tag-8008",
-      "name": "external",
-      "color": "light-teal",
+      "gid": "tag-04",
+      "name": "paid-media",
+      "workspace_gid": "ws-1001"
+    },
+    {
+      "gid": "tag-05",
+      "name": "creative-assets",
+      "workspace_gid": "ws-1001"
+    },
+    {
+      "gid": "tag-06",
+      "name": "blocked",
+      "workspace_gid": "ws-1001"
+    },
+    {
+      "gid": "tag-07",
+      "name": "q4-priority",
+      "workspace_gid": "ws-1001"
+    },
+    {
+      "gid": "tag-08",
+      "name": "retainer",
       "workspace_gid": "ws-1001"
     }
   ],
   "portfolios": [
     {
-      "gid": "port-9001",
-      "name": "Q4 2026 Initiatives",
-      "owner_gid": "usr-101",
-      "owner_name": "Charlotte Watson",
+      "gid": "port-001",
+      "name": "Entertainment & Streaming Clients",
       "workspace_gid": "ws-1001",
-      "created_at": "2026-07-01T09:00:00Z",
-      "color": "dark-pink",
+      "owner_gid": "usr-001",
+      "owner_name": "Jonathan Reyes",
+      "description": "All active entertainment and streaming client campaigns",
       "project_gids": [
-        "proj-301",
-        "proj-303",
-        "proj-306",
-        "proj-307"
+        "proj-001",
+        "proj-002",
+        "proj-007"
       ]
     },
     {
-      "gid": "port-9002",
-      "name": "GlobalCorp Integration",
-      "owner_gid": "usr-110",
-      "owner_name": "Tom Vasquez",
+      "gid": "port-002",
+      "name": "Gaming & Interactive Clients",
       "workspace_gid": "ws-1001",
-      "created_at": "2026-06-01T09:00:00Z",
-      "color": "dark-orange",
+      "owner_gid": "usr-004",
+      "owner_name": "Marcus Lin",
+      "description": "Gaming client campaigns and interactive brand work",
       "project_gids": [
-        "proj-302",
-        "proj-308"
+        "proj-003",
+        "proj-008"
       ]
     },
     {
-      "gid": "port-9003",
-      "name": "Product Pipeline",
-      "owner_gid": "usr-103",
-      "owner_name": "Trisha Fox",
+      "gid": "port-003",
+      "name": "Consumer Brands & Sports",
       "workspace_gid": "ws-1001",
-      "created_at": "2026-05-20T09:00:00Z",
-      "color": "dark-teal",
+      "owner_gid": "usr-009",
+      "owner_name": "Hannah Park",
+      "description": "Consumer brand and sports sponsorship activations",
       "project_gids": [
-        "proj-304",
-        "proj-305"
+        "proj-004",
+        "proj-005"
       ]
     }
   ],
   "goals": [
     {
-      "gid": "goal-10001",
-      "name": "Launch 2 new SKUs in Q4 2026",
-      "notes": "Successfully launch No. 9 Bond Protector and Holiday Gift Set collection across all key retail and DTC channels before December 1, 2026. Includes BeautyFirst, GlowCo, HealthMart, Target, and BondCare.com.",
-      "owner_gid": "usr-101",
-      "owner_name": "Charlotte Watson",
-      "due_date": "2026-12-01",
+      "gid": "goal-001",
+      "name": "Q4 2026: Launch Paramount+ Fall Campaign on November 18",
+      "workspace_gid": "ws-1001",
+      "owner_gid": "usr-001",
+      "owner_name": "Jonathan Reyes",
       "status": "on_track",
-      "metric": {
-        "unit": "SKUs launched",
-        "current_value": 0,
-        "target_value": 2
-      },
-      "workspace_gid": "ws-1001"
+      "due_date": "2026-11-18",
+      "notes": "Campaign brief locked, concept selected, production kicked off. Media plan finalized. Critical path: storyboards Oct 31 \u2192 legal review Nov 11-14 \u2192 launch Nov 18.",
+      "metric": "On-time launch of 3 ad cuts across 5 platforms",
+      "current_value": 40,
+      "target_value": 100
     },
     {
-      "gid": "goal-10002",
-      "name": "Grow Salon Pro channel revenue 20% YoY",
-      "notes": "Grow the Salon Professional channel revenue by 20% year-over-year by end of FY2026 through program relaunch, top account outreach, and enhanced portal experience.",
-      "owner_gid": "usr-102",
-      "owner_name": "John Keppeler",
-      "due_date": "2026-12-31",
-      "status": "at_risk",
-      "metric": {
-        "unit": "% revenue growth vs. prior year",
-        "current_value": 7,
-        "target_value": 20
-      },
-      "workspace_gid": "ws-1001"
-    },
-    {
-      "gid": "goal-10003",
-      "name": "Complete GlobalCorp Integration Milestone 1 by Q4 2026",
-      "notes": "Complete all Milestone 1 GlobalCorp integration workstreams by December 31, 2026. Milestone 1 covers: ERP assessment, legal entity review, brand guidelines, and supply chain documentation.",
-      "owner_gid": "usr-110",
-      "owner_name": "Tom Vasquez",
-      "due_date": "2026-12-31",
+      "gid": "goal-002",
+      "name": "Q4 2026: Deliver $2.1M Solstice Athletic holiday campaign",
+      "workspace_gid": "ws-1001",
+      "owner_gid": "usr-008",
+      "owner_name": "Tariq Johnson",
       "status": "on_track",
-      "metric": {
-        "unit": "workstreams completed",
-        "current_value": 1,
-        "target_value": 4
-      },
-      "workspace_gid": "ws-1001"
+      "due_date": "2026-12-26",
+      "notes": "Creative brief in progress. Media plan due Nov 8. Black Friday activation is the critical early milestone.",
+      "metric": "Campaign live by Nov 27 across Meta and TikTok",
+      "current_value": 25,
+      "target_value": 100
     },
     {
-      "gid": "goal-10004",
-      "name": "Achieve $42M DTC e-commerce revenue in 2026",
-      "notes": "Drive $42M in DTC e-commerce revenue for full year 2026 through platform migration, improved conversion, and expanded digital marketing investment post-GlobalCorp acquisition.",
-      "owner_gid": "usr-106",
-      "owner_name": "Ryan Chen",
-      "due_date": "2026-12-31",
+      "gid": "goal-003",
+      "name": "Q4 2026: Win at least 1 new AOR pitch",
+      "workspace_gid": "ws-1001",
+      "owner_gid": "usr-005",
+      "owner_name": "Priya Nair",
       "status": "at_risk",
-      "metric": {
-        "unit": "USD revenue",
-        "current_value": 28500000,
-        "target_value": 42000000
-      },
-      "workspace_gid": "ws-1001"
+      "due_date": "2026-12-15",
+      "notes": "3 active pitches. Streaming platform pitch is strongest. QSR and sports apparel are longer shots. Winning 1 of 3 is the goal.",
+      "metric": "1 new AOR signed by Dec 15",
+      "current_value": 0,
+      "target_value": 1
+    },
+    {
+      "gid": "goal-004",
+      "name": "FY2026: Grow entertainment vertical revenue 20% YoY",
+      "workspace_gid": "ws-1001",
+      "owner_gid": "usr-001",
+      "owner_name": "Jonathan Reyes",
+      "status": "on_track",
+      "due_date": "2026-12-31",
+      "notes": "Paramount+ retainer renewal and fall campaign SOW are the key revenue drivers. New pitch win would put us well above target.",
+      "metric": "Entertainment vertical revenue vs FY2025",
+      "current_value": 16,
+      "target_value": 20
     }
   ]
 }
