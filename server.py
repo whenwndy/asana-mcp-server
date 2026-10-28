@@ -26,10 +26,10 @@ mcp = FastMCP(
     name="asana-mock",
     version="2.0.0",
     instructions=(
-        "Mock Asana project management for Meridian Creative Group, an independent global "
-        "creative and marketing agency specializing in entertainment, gaming, consumer brands, "
-        "and sports. Query workspaces, projects, tasks, sections, subtasks, comments, tags, "
-        "portfolios, and goals. Use asana_task_search to find tasks across projects. "
+        "Mock Asana project management for an independent global creative and marketing agency "
+        "specializing in entertainment, gaming, consumer brands, and sports. Query workspaces, "
+        "projects, tasks, sections, subtasks, comments, tags, portfolios, and goals. "
+        "Use asana_task_search to find tasks across projects. "
         "Key active projects: Paramount+ Fall Streaming Campaign (Nov 18 launch, Concept A "
         "'Your Next Obsession', $120K media budget, 6s/15s/30s cuts), Paramount+ Always-On "
         "Social Retainer, NOVA Studios Rift Protocol Launch (gaming, Feb 2027), Solstice "

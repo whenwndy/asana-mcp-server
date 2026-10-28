@@ -2,11 +2,11 @@
   "workspaces": [
     {
       "gid": "ws-1001",
-      "name": "Meridian Creative Group",
+      "name": "Creative & Marketing Agency",
       "resource_type": "workspace",
       "is_organization": true,
       "email_domains": [
-        "meridiancreative.co"
+        "agency.co"
       ]
     }
   ],
